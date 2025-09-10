@@ -92,6 +92,10 @@
       },
       "contact": {
         "title": "Schedule a Free 30-Minute Confidential Consultation",
+        "switch": {
+          "label": "Llenar en Español",
+          "href": "/es#contact"
+        },
         "form": {
           "name": "Name",
           "consultationMethod": {
@@ -127,13 +131,14 @@
               "unsure": "Unsure"
             }
           },
-          "details": "Tell us about your situation in a few words.",
+          "details": "Tell us about your situation in a few words. Include a case number if you have one.",
+          "pricing": "Pricing for any service will be discussed during the consultation.",
           "button": "SUBMIT"
         }
       }
     },
     "services": {
-      "title": "services we offer you",
+      "title": "Services We Offer You",
       "services": [
         {
           "name": "Adoptions",
@@ -244,6 +249,10 @@
           "name": "Local Counsel for Pro Hac Vice Attorneys",
           "description": "Florida courts, both state and federal, may allow pro hac vice practice for attorneys who are not licensed in Florida. However, this attorney is required to have another local attorney licensed to practice in Florida on the case. If your case is in the Florida, we are your solution. If you are looking for local counsel in a current or future case, contact us today to schedule your free consultation.",
           "closing": "If you are looking for local counsel in a current or future case, contact us today to schedule your free consultation."
+        },{
+          "name": "Of Counsel Services",
+          "description": "Some law firms may need legal advice on a difficult or niche legal topic. Alternatively, a law firm may be temporarily understaffed and unable to keep up with their work load. In either event, it makes sense to hire an outside attorney to help. If you need an “of counsel” attorney, contact us today to schedule your free consultation.",
+          "closing": "If you need an “of counsel” attorney, contact us today to schedule your free consultation."
         },
         {
           "name": "Operating Agreements",
@@ -294,12 +303,8 @@
           "name": "Wills and Testaments",
           "description": "Everyone should consider whether they need a will. Without one, you are effectively agreeing with the government deciding how to distribute your property after you die. The problem is that many people do not even know what the law says about distribution after a death, and, even if they do know, will not be attentive of any changes to the law. The creation of a will can provide you with a lifetime of peace of mind because you make it clear how you want your property distributed after death. If you need an attorney to prepare or modify your will or testament, contact us today to schedule your free consultation.",
           "closing": "If you need an attorney to prepare or modify your will or testament, contact us today to schedule your free consultation."
-        },
-        {
-          "name": "Of Counsel Services",
-          "description": "Some law firms may need legal advice on a difficult or niche legal topic. Alternatively, a law firm may be temporarily understaffed and unable to keep up with their work load. In either event, it makes sense to hire an outside attorney to help. If you need an “of counsel” attorney, contact us today to schedule your free consultation.",
-          "closing": "If you need an “of counsel” attorney, contact us today to schedule your free consultation."
         }
+        
       ]
     },
     "team": {
@@ -399,7 +404,7 @@
         }
       ],
       "language": {
-        "label": "Espanol",
+        "label": "Español",
         "href": "/es"
       },
       "button": {
@@ -410,6 +415,7 @@
     "footer": {
       "locations": {
         "title": "Areas We Serve",
+        "note": "We may serve other areas with payment of travel expenses.",
         "counties": [
           {
             "county": "Miami-Dade County",

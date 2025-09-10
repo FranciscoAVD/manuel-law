@@ -92,6 +92,10 @@
       },
       "contact": {
         "title": "Coordine una Consulta Confidencial y Gratuita de 30 Minutos",
+        "switch": {
+          "label": "Complete in English",
+          "href": "/en#contact"
+        },
         "form": {
           "name": "Nombre",
           "consultationMethod": {
@@ -120,7 +124,7 @@
             }
           },
           "florida": {
-            "label": "Esto es un asunto de Florida?",
+            "label": "¿Esto es un asunto de Florida?",
             "options": {
               "yes": "Sí",
               "no": "No",
@@ -128,13 +132,40 @@
             }
           },
           "details": "Cuéntenos de su situación en pocas palabras. Favor de incluir el número de caso si lo tiene.",
+          "pricing": "El precio de cualquier servicio se discutirá durante la consulta.",
           "button": "SOMETER"
         }
       }
     },
     "services": {
-      "title": "servicios que te ofrecemos",
+      "title": "Servicios Que Le Ofrecemos",
+
       "services": [
+        {
+          "name": "Acciones de Partición",
+          "description": "¿Eres parte dueño de una propiedad (quizás una casa o un carro) que quiere vender, pero el otro dueño no quiere? Si es así, se le puede peticionar a la corte para ordenar la venta de dicha propiedad por encima de cualquier objeción que tenga el otro dueño. Estos tipos de caso se les dice “acciones de partición” o “casos de partición”. Si necesita representación en un caso actual o futuro de partición, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso actual o futuro de partición, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Acciones Reivindicatorias",
+          "description": "¿Alguien se está rehusando a devolverle su propiedad? ¿La policía se niega a ayudar? De ser así, se puede radicar una petición para que un juez emita una orden para la devolución de su propiedad (llamado un “writ of replevin”). Por otro lado, si usted tiene la propiedad de otro por causa de una falta de pago, debe proteger sus derechos también. En cualquiera de estas situaciones, debe considerar la contratación de un abogado experimentado para proteger sus derechos y argumentar su caso. Si necesita representación en una acción reivindicatoria actual o futura, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en una acción reivindicatoria actual o futura, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Acciones Torticeras",
+          "description": "El término “acción torticera” es una forma general de describir cuando una persona ilícitamente le ocasiona daños a otro. Usualmente, una acción torticera es el remedio adecuado para demandar cuando no existe un contrato entre las partes. Ejemplos comunes son casos de difamación, agresión y fraude. Por otro lado, una persona demandada por una acción torticera tiene derecho a defenderse y presentar su caso. En cualquiera de estos casos, debe considerar la contratación de un abogado experimentado para proteger sus derechos y argumentar su caso de manera efectiva. Si necesita representación en una acción torticera actual o futura, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en una acción torticera actual o futura, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Acuerdos Operativos",
+          "description": "Uno de los errores más graves que cometen los codueños de un negocio es no crear un acuerdo operativo. Un acuerdo operativo es la mejor forma de clarificar todos los aspectos importantes de una relación de negocio antes de que sucedan los problemas. ¡Y créenos cuando decimos que pueden pasar muchos problemas! ¿Qué porcentaje tiene cada dueño? ¿Cuánto capital está aportando cada uno? ¿Cómo se dividen las ganancias? ¿Cómo se dividen las tareas del negocio? ¿Quién tiene la última palabra si existe un desacuerdo en un tema particular? ¿Qué pasa si uno de los dueños fallece o se incapacite? ¿Qué pasa si uno de los dueños quiere vender su porcentaje del negocio? ¿Qué pasa si un dueño se va a la quiebra? Todas estas preguntas y más deben ser atendidos en su acuerdo operativo. No quiere darle paso a tener que invertir dinero y tiempo para litigar algo que pudo haberse evitado al tenerlo ya acordado en un acuerdo operativo. Aún si las cosas siempre se mantienen positivas entre los dueños, tener un acuerdo operativo ayuda al negocio a correr de manera más efectiva ya que se deja todo claro de un principio y evita malos entendidos. Si necesita un acuerdo operativo para su negocio actual o futuro, coordine hoy su consulta gratis.",
+          "closing": "Si necesita un acuerdo operativo para su negocio actual o futuro, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Acuerdos Prenupciales o Posnupciales",
+          "description": "Un acuerdo prenupcial o posnupcial es cuando los esposos formalmente acuerdan asuntos financieros en caso de que ocurra un divorcio. Un acuerdo prenupcial se hace antes de casarse y un acuerdo posnupcial se hace después de casarse. Cuando hay un matrimonio, siempre puede haber un divorcio. La formalización de un acuerdo prenupcial o posnupcial puede ser una buena idea ya que un divorcio puede afectar sus finanzas por el resto de su vida. Cuando ocurre un divorcio, un juez decide cómo dividir todos los bienes y cuánto se debe pagar en una pensión alimenticia. Un buen acuerdo prenupcial o posnupcial frecuentemente saca el criterio del juez de la ecuación y protege las intenciones reales de las partes. Si le interesa crear un acuerdo prenupcial o posnupcial, coordine hoy su consulta gratis.",
+          "closing": "Si le interesa crear un acuerdo prenupcial o posnupcial, coordine hoy su consulta gratis."
+        },
         {
           "name": "Adopciones",
           "description": "Adoptando a un niño puede ser lo mejor que le ha pasado. No obstante, a veces las adopciones ser complicados, especialmente cuando existen objeciones a dicha adopción. Por otro lado, usted podría ser un padre quien está tratando de detener que otro adopte a su hijo. En cualquiera de estas situaciones, usted podría necesitar un abogado con experiencia para argumentar su caso de manera efectiva y proteger sus derechos como padre. Si necesita representación en un caso de adopción actual o futuro, coordine hoy su consulta gratis.",
@@ -146,19 +177,9 @@
           "closing": "Si necesita representación en un caso de apelación actual o futuro, coordine hoy su consulta gratis."
         },
         {
-          "name": "Casos de Arbitraje",
-          "description": "Muchos contratos requieren que las disputas legales se resuelvan en arbitraje, lo que quiere decir que su diputa se tiene que radicar y argumentar en un foro privado y no tradicional. El arbitraje es un proceso alabado por muchos por ser más eficiente, costo efectivo y privado que una corte tradicional. No obstante, muchos otros están en desacuerdo con la proclamación de que es más costo efectivo. A veces no está en sus manos si quiere o no llevar su caso a arbitraje. Si necesita representación en un caso de arbitraje actual o futuro, coordine hoy su consulta gratis.",
-          "closing": "Si necesita representación en un caso de arbitraje actual o futuro, coordine hoy su consulta gratis."
-        },
-        {
-          "name": "Violación de Contrato",
-          "description": "Cuando las personas piensan en un contrato, piensan en un papel formal. No obstante, los contratos o acuerdos verbales—aunque pueden ser más difíciles de probar—usualmente son válidos y efectivos también. ¿Pero de qué sirve un contrato si un firmante lo viola? Si alguien se niega a cumplir con su contrato (le que llamamos una “violación de contrato”), usted probablemente tendrá que llevarlo a corte para hacerlo valer o que le paguen por los daños causados por la violación. Por otra parte, si usted es quien se le acusa de haber violado el contrato, puede tener defensas válidas que se deben considerar. En cualquiera de estas situaciones, debería considerar contratar un abogado con experiencia que argumente su caso de manera propia y efectiva. Si necesita representación en un caso de violación de contrato actual o futuro, coordine hoy su consulta gratis.",
-          "closing": "Si necesita representación en un caso de violación de contrato actual o futuro, coordine hoy su consulta gratis."
-        },
-        {
-          "name": "Evaluaciones de su Caso",
-          "description": "A veces su situación es tan compleja que no podemos evaluar su caso adecuadamente durante una breve consulta. Cuando esto sucede, le podemos ofrecer un servicio de evaluar su caso, lo cual podría incluir una investigación legal y la obtención y evaluación de la evidencia disponible para proveerle una estimación inicial de sus probabilidades de éxito y potenciales peligros. Si necesita ayuda entendiendo si tiene o no un caso fuerte, coordine hoy su consulta gratis.",
-          "closing": "Si necesita ayuda entendiendo si tiene o no un caso fuerte, coordine hoy su consulta gratis."
+          "name": "Asesor Local para Abogados de Pro Hac Vice",
+          "description": "Las cortes de Florida, tanto los estatales como los federales, podrían permitir que abogados de otras jurisdicciones practiquen en calidad de pro hac vice sin la licencia de Florida. No obstante, dicho abogado necesitará tener otro abogado local con la licencia de Florida en el caso. Si su caso es en Florida, nosotros somos la solución. Si necesita un abogado local para un asunto pro hac vice actual o futuro, coordine hoy su consulta gratis.",
+          "closing": "Si necesita un abogado local para un asunto pro hac vice actual o futuro, coordine hoy su consulta gratis."
         },
         {
           "name": "Casos Civiles",
@@ -166,29 +187,14 @@
           "closing": "Si necesita representación en un caso civil actual o futuro, coordine hoy su consulta gratis."
         },
         {
+          "name": "Casos de Arbitraje",
+          "description": "Muchos contratos requieren que las disputas legales se resuelvan en arbitraje, lo que quiere decir que su diputa se tiene que radicar y argumentar en un foro privado y no tradicional. El arbitraje es un proceso alabado por muchos por ser más eficiente, costo efectivo y privado que una corte tradicional. No obstante, muchos otros están en desacuerdo con la proclamación de que es más costo efectivo. A veces no está en sus manos si quiere o no llevar su caso a arbitraje. Si necesita representación en un caso de arbitraje actual o futuro, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso de arbitraje actual o futuro, coordine hoy su consulta gratis."
+        },
+        {
           "name": "Casos de Derechos Constitucionalidades",
           "description": "Toda persona—incluyendo un extranjero ilegal—tiene derechos bajo la constitución de Estados Unidos. Si se viola cualquiera de sus derechos constitucionales, puede buscar justicia, lo que podría incluir pagos por los daños que ha sufrido. Algunas violaciones constitucionales comunes son los arrestos ilegales, registros ilegales y abuso policiaco. Si necesita representación en un caso constitucional actual o futuro, coordine hoy su consulta gratis.",
           "closing": "Si necesita representación en un caso constitucional actual o futuro, coordine hoy su consulta gratis."
-        },
-        {
-          "name": "Preparación de Contratos",
-          "description": "Es tentador usar una plantilla de contrato encontrado por internet para evitar el sobrepago a un abogado. Desafortunadamente, muchos de estos contratos estándares que se encuentran por internet pueden ser mejorado y adoptado a su situación específica para aumentar sus protecciones, añadir clarificaciones y minimizar el litigio. El hecho de que quiera usar un contrato por escrito en primer lugar es un buen indicio de que el acuerdo es lo suficientemente importante de querer el mejor contrato posible. Contratos deficientes son minas terrestres para el litigio, estrés e incertidumbre. Si usted necesita crear un contrato, debe considerar contratar a un abogado con experiencia para hacerlo bien. Si necesita preparar o modificar un contrato, coordine hoy su consulta gratis.",
-          "closing": "Si necesita preparar o modificar un contrato, coordine hoy su consulta gratis."
-        },
-        {
-          "name": "Negociación de Contratos",
-          "description": "Muy frecuentemente las personas firman los contratos sin tan siquiera intentar negociar sus términos. Recuerda, si hay algo en un contrato a lo cual no está de acuerdo, no tiene que firmarlo. Negociar es una destreza valiosa que se aprende y se estudia. Manuel Alejandro Franco ha tenido la oportunidad de negociar contratos de mucho valor a favor de figuras públicas conocidas. Si necesita representación en una negociación de contrato, coordine hoy su consulta gratis.",
-          "closing": "Si necesita representación en una negociación de contrato, coordine hoy su consulta gratis."
-        },
-        {
-          "name": "Defensa Penal",
-          "description": "Cuando su libertad está en juego, necesita un abogado penal experimentado para protegerlo de abusos gubernamentales y preparar una estrategia efectiva para su caso. Sea inocente o culpable, usted tiene derechos y se tienen que proteger y hacer valer. Manuel Alejandro Franco tiene experiencia en los tres lados de un caso penal: fue oficial jurídico de un juez federal, un fiscal en Florida y ha sido abogado de defensa por varios años. Si necesita representación en un caso penal actual o futuro, coordine hoy su consulta gratis.",
-          "closing": "Si necesita representación en un caso penal actual o futuro, coordine hoy su consulta gratis."
-        },
-        {
-          "name": "Declaraciones de Tutor en Caso de Incapacidad",
-          "description": "Si usted se incapacita, ¿le gusta la idea de que un juez quien nunca lo conoció decida quien se encargará de cuidar sus hijos? Aún si el juez tiene las mejores intenciones, esto es una propuesta aterradora. No obstante, si prepara una declaración de un tutor en caso de incapacidad (“declaration of pre-need guardian”), deja claro sus intenciones y el juez usualmente va a actuar acorde con la declaración. Si necesita un abogado que prepare su declaración de tutor en caso de incapacidad, coordine hoy su consulta gratis.",
-          "closing": "Si necesita un abogado que prepare su declaración de tutor en caso de incapacidad, coordine hoy su consulta gratis."
         },
         {
           "name": "Casos de Difamación",
@@ -201,9 +207,9 @@
           "closing": "Si necesita representación en un caso de divorcio actual o futura, coordine hoy su consulta gratis."
         },
         {
-          "name": "Casos de Violencia Doméstica",
-          "description": "Aunque no apoyamos la violencia doméstica, muchos de los que son acusados son inocentes o, si son culpables, no merecen un castigo excesivo. Casos penales de violencia doméstica son notorios por ser difíciles de probar debido a tecnicismos de las reglas de evidencia y los derechos constitucionales de un acusado. Manuel Alejandro Franco tiene experiencia en estos casos tanto como fiscal como abogado de defensa. Si contrata un abogado experimentando, puede hacer una gran diferencia en su situación. Si necesita representación en un caso de violencia doméstica actual o futura, coordine hoy su consulta gratis.",
-          "closing": "Si necesita representación en un caso de violencia doméstica actual o futura, coordine hoy su consulta gratis."
+          "name": "Casos de Droga",
+          "description": "Por décadas, nuestro gobierno ha estado invirtiendo enormes cantidades de dinero perdiendo la guerra en contra de las drogas. A pesar de las buenas intenciones, los narcóticos ilegales son más fáciles que nunca para obtener. Cada vez que una persona es encarcelada, otra persona rápidamente toma su lugar. Algunos delitos comunes de droga son por posesión, manufacturación, distribución y tráfico. Algunas de las drogas ilegales más comunes son la cocaína, heroína, fentanilo y metanfetamina. Es crucial que una persona quien esté enfrentando estos cargos tenga un abogado experimentado para proteger sus derechos. Si necesita representación en un caso de droga actual o futura, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso de droga actual o futura, coordine hoy su consulta gratis."
         },
         {
           "name": "Casos de Manejar Bajo Estado de Embriaguez",
@@ -211,9 +217,19 @@
           "closing": "Si necesita representación en un caso de conducir bajo estado de embriaguez actual o futura, coordine hoy su consulta gratis."
         },
         {
-          "name": "Casos de Droga",
-          "description": "Por décadas, nuestro gobierno ha estado invirtiendo enormes cantidades de dinero perdiendo la guerra en contra de las drogas. A pesar de las buenas intenciones, los narcóticos ilegales son más fáciles que nunca para obtener. Cada vez que una persona es encarcelada, otra persona rápidamente toma su lugar. Algunos delitos comunes de droga son por posesión, manufacturación, distribución y tráfico. Algunas de las drogas ilegales más comunes son la cocaína, heroína, fentanilo y metanfetamina. Es crucial que una persona quien esté enfrentando estos cargos tenga un abogado experimentado para proteger sus derechos. Si necesita representación en un caso de droga actual o futura, coordine hoy su consulta gratis.",
-          "closing": "Si necesita representación en un caso de droga actual o futura, coordine hoy su consulta gratis."
+          "name": "Casos de Violencia Doméstica",
+          "description": "Aunque no apoyamos la violencia doméstica, muchos de los que son acusados son inocentes o, si son culpables, no merecen un castigo excesivo. Casos penales de violencia doméstica son notorios por ser difíciles de probar debido a tecnicismos de las reglas de evidencia y los derechos constitucionales de un acusado. Manuel Alejandro Franco tiene experiencia en estos casos tanto como fiscal como abogado de defensa. Si contrata un abogado experimentando, puede hacer una gran diferencia en su situación. Si necesita representación en un caso de violencia doméstica actual o futura, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso de violencia doméstica actual o futura, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Declaraciones de Tutor en Caso de Incapacidad",
+          "description": "Si usted se incapacita, ¿le gusta la idea de que un juez quien nunca lo conoció decida quien se encargará de cuidar sus hijos? Aún si el juez tiene las mejores intenciones, esto es una propuesta aterradora. No obstante, si prepara una declaración de un tutor en caso de incapacidad (“declaration of pre-need guardian”), deja claro sus intenciones y el juez usualmente va a actuar acorde con la declaración. Si necesita un abogado que prepare su declaración de tutor en caso de incapacidad, coordine hoy su consulta gratis.",
+          "closing": "Si necesita un abogado que prepare su declaración de tutor en caso de incapacidad, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Defensa Penal",
+          "description": "Cuando su libertad está en juego, necesita un abogado penal experimentado para protegerlo de abusos gubernamentales y preparar una estrategia efectiva para su caso. Sea inocente o culpable, usted tiene derechos y se tienen que proteger y hacer valer. Manuel Alejandro Franco tiene experiencia en los tres lados de un caso penal: fue oficial jurídico de un juez federal, un fiscal en Florida y ha sido abogado de defensa por varios años. Si necesita representación en un caso penal actual o futuro, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso penal actual o futuro, coordine hoy su consulta gratis."
         },
         {
           "name": "Desalojos",
@@ -221,9 +237,9 @@
           "closing": "Si necesita representación en un caso de desalojo, coordine hoy su consulta gratis."
         },
         {
-          "name": "Servicios de Asesoría General",
-          "description": "Si maneja un negocio, posiblemente necesite un abogado confiable, competente y económico para atender asuntos legales que pueden surgir. Muchos de los mejores consejos a los negocios envuelven la prevención y minimización de dificultades legales futuras antes de que vayan a ocurrir. Si necesita un abogado de asesoría general, coordine hoy su consulta gratis.",
-          "closing": "Si necesita un abogado de asesoría general, coordine hoy su consulta gratis."
+          "name": "Evaluaciones de su Caso",
+          "description": "A veces su situación es tan compleja que no podemos evaluar su caso adecuadamente durante una breve consulta. Cuando esto sucede, le podemos ofrecer un servicio de evaluar su caso, lo cual podría incluir una investigación legal y la obtención y evaluación de la evidencia disponible para proveerle una estimación inicial de sus probabilidades de éxito y potenciales peligros. Si necesita ayuda entendiendo si tiene o no un caso fuerte, coordine hoy su consulta gratis.",
+          "closing": "Si necesita ayuda entendiendo si tiene o no un caso fuerte, coordine hoy su consulta gratis."
         },
         {
           "name": "Interdictos de Protección",
@@ -236,29 +252,9 @@
           "closing": "Si necesita que un abogado le haga una investigación legal, coordine hoy su consulta gratis."
         },
         {
-          "name": "Testamento Vital o Directivas Anticipadas",
-          "description": "El propósito de un testamento vital o directiva anticipada es dejarle saber a todos qué tipo de cuidado médico quiere—y no quiere—si terminas estando demasiado incapacitado para poder hablar por sí mismo. Por ejemplo, una cláusula común en estos documentos especifica si desea o no que lo resuciten si su corazón deja de latir. La gran diferencia entre estos documentos y un testamento normal es que el testamento normal tiene efectividad solamente después que la persona fallece. Si necesita un testamento vital o directiva anticipada, coordine hoy su consulta gratis.",
-          "closing": "Si necesita un testamento vital o directiva anticipada, coordine hoy su consulta gratis."
-        },
-        {
-          "name": "Asesor Local para Abogados de Pro Hac Vice",
-          "description": "Las cortes de Florida, tanto los estatales como los federales, podrían permitir que abogados de otras jurisdicciones practiquen en calidad de pro hac vice sin la licencia de Florida. No obstante, dicho abogado necesitará tener otro abogado local con la licencia de Florida en el caso. Si su caso es en Florida, nosotros somos la solución. Si necesita un abogado local para un asunto pro hac vice actual o futuro, coordine hoy su consulta gratis.",
-          "closing": "Si necesita un abogado local para un asunto pro hac vice actual o futuro, coordine hoy su consulta gratis."
-        },
-        {
-          "name": "Acuerdos Operativos",
-          "description": "Uno de los errores más graves que cometen los codueños de un negocio es no crear un acuerdo operativo. Un acuerdo operativo es la mejor forma de clarificar todos los aspectos importantes de una relación de negocio antes de que sucedan los problemas. ¡Y créenos cuando decimos que pueden pasar muchos problemas! ¿Qué porcentaje tiene cada dueño? ¿Cuánto capital está aportando cada uno? ¿Cómo se dividen las ganancias? ¿Cómo se dividen las tareas del negocio? ¿Quién tiene la última palabra si existe un desacuerdo en un tema particular? ¿Qué pasa si uno de los dueños fallece o se incapacite? ¿Qué pasa si uno de los dueños quiere vender su porcentaje del negocio? ¿Qué pasa si un dueño se va a la quiebra? Todas estas preguntas y más deben ser atendidos en su acuerdo operativo. No quiere darle paso a tener que invertir dinero y tiempo para litigar algo que pudo haberse evitado al tenerlo ya acordado en un acuerdo operativo. Aún si las cosas siempre se mantienen positivas entre los dueños, tener un acuerdo operativo ayuda al negocio a correr de manera más efectiva ya que se deja todo claro de un principio y evita malos entendidos. Si necesita un acuerdo operativo para su negocio actual o futuro, coordine hoy su consulta gratis.",
-          "closing": "Si necesita un acuerdo operativo para su negocio actual o futuro, coordine hoy su consulta gratis."
-        },
-        {
-          "name": "Acciones de Partición",
-          "description": "¿Eres parte dueño de una propiedad (quizás una casa o un carro) que quiere vender, pero el otro dueño no quiere? Si es así, se le puede peticionar a la corte para ordenar la venta de dicha propiedad por encima de cualquier objeción que tenga el otro dueño. Estos tipos de caso se les dice “acciones de partición” o “casos de partición”. Si necesita representación en un caso actual o futuro de partición, coordine hoy su consulta gratis.",
-          "closing": "Si necesita representación en un caso actual o futuro de partición, coordine hoy su consulta gratis."
-        },
-        {
-          "name": "Peticiones de Habeas Corpus",
-          "description": "Aunque puede sonar complicado, una petición de habeas corpus es entendido de la mejor manera como una solicitud para una orden para que se traiga a una persona arrestado o encarcelado injustamente para ser liberado o, al menos, traído ante un juez para discutir el asunto. La radicación de una petición de habeas corpus propia puede ser procesalmente complejo y teniendo in abogado experimentado puede ayudar a mover las cosas de una manera más rápida. Si necesita representación en un caso actual o futuro de habeas corpus, coordiofene hoy su consulta gratis.",
-          "closing": "Si necesita representación en un caso actual o futuro de habeas corpus, coordine hoy su consulta gratis."
+          "name": "Negociación de Contratos",
+          "description": "Muy frecuentemente las personas firman los contratos sin tan siquiera intentar negociar sus términos. Recuerda, si hay algo en un contrato a lo cual no está de acuerdo, no tiene que firmarlo. Negociar es una destreza valiosa que se aprende y se estudia. Manuel Alejandro Franco ha tenido la oportunidad de negociar contratos de mucho valor a favor de figuras públicas conocidas. Si necesita representación en una negociación de contrato, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en una negociación de contrato, coordine hoy su consulta gratis."
         },
         {
           "name": "Peticiones de Cambio de Nombre",
@@ -266,19 +262,19 @@
           "closing": "Si necesita representación en un asunto de cambio de nombre actual o futuro, coordine hoy su consulta gratis."
         },
         {
+          "name": "Peticiones de Habeas Corpus",
+          "description": "Aunque puede sonar complicado, una petición de habeas corpus es entendido de la mejor manera como una solicitud para una orden para que se traiga a una persona arrestado o encarcelado injustamente para ser liberado o, al menos, traído ante un juez para discutir el asunto. La radicación de una petición de habeas corpus propia puede ser procesalmente complejo y teniendo in abogado experimentado puede ayudar a mover las cosas de una manera más rápida. Si necesita representación en un caso actual o futuro de habeas corpus, coordiofene hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso actual o futuro de habeas corpus, coordine hoy su consulta gratis."
+        },
+        {
           "name": "Poderes",
           "description": "Un poder es básicamente un documento formal permitiendo que otra persona (llamado “apoderado”) actúe de manera legal en su lugar. Son muy versátiles y pueden ser modificados para limitar el poder concedido. Un poder puede ser una solución conveniente cuando tiene que hacer algo, pero no tiene el tiempo de hacerlo. Por ejemplo, con un poder apropiado, el apoderado puede negociar y firmar contratos a su nombre o acceder y vender su propiedad. Por supuesto, esto solamente tiene sentido si el apoderado es alguien en quien confía incondicionalmente y que tiene sus mejores intereses presentes. Una forma inteligente de usar un poder es para darle acceso a un ser querido de confianza a sus bienes para poder cuidarlo en caso de que se incapacite. Si le interesa crear un poder, coordine hoy su consulta gratis.",
           "closing": "Si le interesa crear un poder, coordine hoy su consulta gratis."
         },
         {
-          "name": "Acuerdos Prenupciales o Posnupciales",
-          "description": "Un acuerdo prenupcial o posnupcial es cuando los esposos formalmente acuerdan asuntos financieros en caso de que ocurra un divorcio. Un acuerdo prenupcial se hace antes de casarse y un acuerdo posnupcial se hace después de casarse. Cuando hay un matrimonio, siempre puede haber un divorcio. La formalización de un acuerdo prenupcial o posnupcial puede ser una buena idea ya que un divorcio puede afectar sus finanzas por el resto de su vida. Cuando ocurre un divorcio, un juez decide cómo dividir todos los bienes y cuánto se debe pagar en una pensión alimenticia. Un buen acuerdo prenupcial o posnupcial frecuentemente saca el criterio del juez de la ecuación y protege las intenciones reales de las partes. Si le interesa crear un acuerdo prenupcial o posnupcial, coordine hoy su consulta gratis.",
-          "closing": "Si le interesa crear un acuerdo prenupcial o posnupcial, coordine hoy su consulta gratis."
-        },
-        {
-          "name": "Acciones Reivindicatorias",
-          "description": "¿Alguien se está rehusando a devolverle su propiedad? ¿La policía se niega a ayudar? De ser así, se puede radicar una petición para que un juez emita una orden para la devolución de su propiedad (llamado un “writ of replevin”). Por otro lado, si usted tiene la propiedad de otro por causa de una falta de pago, debe proteger sus derechos también. En cualquiera de estas situaciones, debe considerar la contratación de un abogado experimentado para proteger sus derechos y argumentar su caso. Si necesita representación en una acción reivindicatoria actual o futura, coordine hoy su consulta gratis.",
-          "closing": "Si necesita representación en una acción reivindicatoria actual o futura, coordine hoy su consulta gratis."
+          "name": "Preparación de Contratos",
+          "description": "Es tentador usar una plantilla de contrato encontrado por internet para evitar el sobrepago a un abogado. Desafortunadamente, muchos de estos contratos estándares que se encuentran por internet pueden ser mejorado y adoptado a su situación específica para aumentar sus protecciones, añadir clarificaciones y minimizar el litigio. El hecho de que quiera usar un contrato por escrito en primer lugar es un buen indicio de que el acuerdo es lo suficientemente importante de querer el mejor contrato posible. Contratos deficientes son minas terrestres para el litigio, estrés e incertidumbre. Si usted necesita crear un contrato, debe considerar contratar a un abogado con experiencia para hacerlo bien. Si necesita preparar o modificar un contrato, coordine hoy su consulta gratis.",
+          "closing": "Si necesita preparar o modificar un contrato, coordine hoy su consulta gratis."
         },
         {
           "name": "Sellamiento y Eliminación de Antecedentes Penales",
@@ -286,9 +282,19 @@
           "closing": "Si necesita representación para sellar o eliminar su antecedente penal, coordine hoy su consulta gratis."
         },
         {
-          "name": "Acciones Torticeras",
-          "description": "El término “acción torticera” es una forma general de describir cuando una persona ilícitamente le ocasiona daños a otro. Usualmente, una acción torticera es el remedio adecuado para demandar cuando no existe un contrato entre las partes. Ejemplos comunes son casos de difamación, agresión y fraude. Por otro lado, una persona demandada por una acción torticera tiene derecho a defenderse y presentar su caso. En cualquiera de estos casos, debe considerar la contratación de un abogado experimentado para proteger sus derechos y argumentar su caso de manera efectiva. Si necesita representación en una acción torticera actual o futura, coordine hoy su consulta gratis.",
-          "closing": "Si necesita representación en una acción torticera actual o futura, coordine hoy su consulta gratis."
+          "name": "Servicios de Asesoría General",
+          "description": "Si maneja un negocio, posiblemente necesite un abogado confiable, competente y económico para atender asuntos legales que pueden surgir. Muchos de los mejores consejos a los negocios envuelven la prevención y minimización de dificultades legales futuras antes de que vayan a ocurrir. Si necesita un abogado de asesoría general, coordine hoy su consulta gratis.",
+          "closing": "Si necesita un abogado de asesoría general, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Servicios de Contratación de Abogado",
+          "description": "Algunos bufetes de abogado necesitan insumo legal en un punto de derecho difícil y especializado. Por otro lado, un bufete puede estar corto de personal y no capaz de mantenerse al día con todo su trabajo. En estas circunstancias, contratando un abogado fuera del bufete puede ser una buena solución. Si necesita servicios de contratación de abogado, coordine hoy su consulta gratis.",
+          "closing": "Si necesita servicios de contratación de abogado, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Testamento Vital o Directivas Anticipadas",
+          "description": "El propósito de un testamento vital o directiva anticipada es dejarle saber a todos qué tipo de cuidado médico quiere—y no quiere—si terminas estando demasiado incapacitado para poder hablar por sí mismo. Por ejemplo, una cláusula común en estos documentos especifica si desea o no que lo resuciten si su corazón deja de latir. La gran diferencia entre estos documentos y un testamento normal es que el testamento normal tiene efectividad solamente después que la persona fallece. Si necesita un testamento vital o directiva anticipada, coordine hoy su consulta gratis.",
+          "closing": "Si necesita un testamento vital o directiva anticipada, coordine hoy su consulta gratis."
         },
         {
           "name": "Testamentos",
@@ -296,16 +302,16 @@
           "closing": "Si necesita crear o cambiar un testamento, coordine hoy su consulta gratis."
         },
         {
-          "name": "Servicios de Contratación de Abogado",
-          "description": "Algunos bufetes de abogado necesitan insumo legal en un punto de derecho difícil y especializado. Por otro lado, un bufete puede estar corto de personal y no capaz de mantenerse al día con todo su trabajo. En estas circunstancias, contratando un abogado fuera del bufete puede ser una buena solución. Si necesita servicios de contratación de abogado, coordine hoy su consulta gratis.",
-          "closing": "Si necesita servicios de contratación de abogado, coordine hoy su consulta gratis."
+          "name": "Violación de Contrato",
+          "description": "Cuando las personas piensan en un contrato, piensan en un papel formal. No obstante, los contratos o acuerdos verbales—aunque pueden ser más difíciles de probar—usualmente son válidos y efectivos también. ¿Pero de qué sirve un contrato si un firmante lo viola? Si alguien se niega a cumplir con su contrato (le que llamamos una “violación de contrato”), usted probablemente tendrá que llevarlo a corte para hacerlo valer o que le paguen por los daños causados por la violación. Por otra parte, si usted es quien se le acusa de haber violado el contrato, puede tener defensas válidas que se deben considerar. En cualquiera de estas situaciones, debería considerar contratar un abogado con experiencia que argumente su caso de manera propia y efectiva. Si necesita representación en un caso de violación de contrato actual o futuro, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso de violación de contrato actual o futuro, coordine hoy su consulta gratis."
         }
       ]
     },
     "team": {
-      "title": "",
+      "title": "Conozca a Su Equipo",
       "boss": {
-        "name": "manuel alejandro franco, esq.",
+        "name": "Manuel Alejandro Franco, Esq.",
         "headers": {
           "education": {
             "label": "Educación",
@@ -345,14 +351,14 @@
       },
       "members": [
         {
-          "name": "catherine s. aguilera, esq.",
+          "name": "Catherine S. Aguilera, Esq.",
           "headers": [
             {
-              "label": "NECESITA TITULO",
+              "label": "Abogada con Experiencia en Derecho Penal, Civil y de Familia y Apelaciones",
               "notes": "Catherine S. Aguilera es una abogada dedicada en Manuel Alejandro Law Firm donde practica el derecho penal, civil, de familia y de apelación in la jurisdicción federal y estatal de Florida."
             },
             {
-              "label": "NECESITA TITULO",
+              "label": "Catherine S. Aguilera: Una Profesional Legal Dedicada ",
               "notes": "Nacida en Honduras y residente de Florida desde 1l 1998, Catherine ha sido apasionada hacia el derecho desde los seis años. Obtuvo dos títulos de bachillerato de Florida International University en el 2013—uno en justicia penal y otro en ciencias políticas—además de una certificación en estudios de seguridad nacional. Ansiosa de lograr su sueño de toda la vida, se graduó con un Juris Doctor de la escuela de derecho de Barry University en el 2018 donde también adquirió una certificación de honores en el derecho del medioambiente y la tierra."
             }
           ],
@@ -364,14 +370,14 @@
           ]
         },
         {
-          "name": "leslie ann franco",
+          "name": "Leslie Ann Franco",
           "headers": [
             {
-              "label": "NECESITA TITULO",
+              "label": "Leslie Ann Franco: Excelencia en Educación y Administración",
               "notes": "Leslie tiene un Bachillerato en Educación Secundaria en la Universidad de Puerto Rico. Se graduó en el año 2006 con el honor de Magna Cum laude. Trabajó en el sistema público de Puerto Rico como maestra de español por cuatro años y como maestra bibliotecaria por dos años. En el año 2014, decidió estudiar Sistemas de Oficina y se graduó Summa Cum Laude en el año 2016."
             },
             {
-              "label": "NECESITA TITULO",
+              "label": "Leslie Ann Franco: Notaria en Florida y una Profesional Bilingüe",
               "notes": "En el año 2017, se mudó a Florida en donde pudo mejorar su inglés y decidió certificarse como notaria pública del estado de la Florida."
             }
           ],
@@ -410,6 +416,7 @@
     "footer": {
       "locations": {
         "title": "Ubicaciones que Servimos",
+        "note": "Posiblemente sirvamos otras ubicaciones con el pago de gastos de viaje.",
         "counties": [
           {
             "county": "Miami-Dade County",

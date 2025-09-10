@@ -6,11 +6,12 @@ import { getDictionay } from "@/lib/dictionaries/get-dictionary";
 async function Footer({
   content,
   lang,
-  services
+  services,
 }: {
   content: {
     locations: {
       title: string;
+      note: string;
       counties: {
         county: string;
         districts: string[];
@@ -22,18 +23,21 @@ async function Footer({
     };
   };
   lang: "en" | "es";
-  services:{
+  services: {
     name: string;
     description: string;
     closing: string;
-}[]
+  }[];
 }) {
   return (
     <footer className="">
       <Container className="xl:max-w-5xl py-10 ">
         <div className="grid gap-y-10 gap-x-20">
-          <div className="space-y-4">
+          <div className="">
             <h2 className="text-4xl text-center">{content.locations.title}</h2>
+            <p className="text-black/80 text-center text-xs max-w-sm mx-auto mb-4">
+              {content.locations.note}
+            </p>
             <div className=" flex justify-between gap-x-20 gap-y-10 flex-wrap w-full lg:text-xs">
               {content.locations.counties.map((a) => {
                 return (
@@ -53,7 +57,7 @@ async function Footer({
           </div>
           <div className="space-y-4">
             <h2 className="text-4xl text-center ">{content.services}</h2>
-            <nav className="lg:text-xs grid sm:grid-cols-2 lg:grid-cols-4 justify-center  gap-x-8">
+            <nav className="lg:text-xs grid sm:grid-cols-2 lg:grid-cols-3 justify-center  gap-x-8">
               {services.map((s) => (
                 <Link
                   key={s.name}
@@ -61,7 +65,7 @@ async function Footer({
                     .toLowerCase()
                     .split(" ")
                     .join("-")}`}
-                  className="text-nowrap hover:underline"
+                  className=" hover:underline"
                 >
                   {s.name}
                 </Link>
@@ -71,7 +75,7 @@ async function Footer({
           <div className="w-fit mx-auto text-center lg:text-xs space-y-2">
             <h2 className="text-4xl">{content.contact.title}</h2>
             <div className="">
-              <span className="flex items-center gap-x-2">
+              <span className="flex items-center gap-x-2 justify-center">
                 <PhoneIcon
                   className="size-4 text-white"
                   fill="black"
@@ -79,7 +83,7 @@ async function Footer({
                 />
                 {"(786) 554 - 3145"} {"(Call or Text)"}
               </span>
-              <span className="flex items-center gap-x-2">
+              <span className="flex items-center gap-x-2 justify-center">
                 <MailIcon className="size-4" aria-hidden />{" "}
                 Manuel@AlejandroLaw.net
               </span>
@@ -91,7 +95,7 @@ async function Footer({
         </div>
       </Container>
       <div className="flex items-center justify-center h-12 bg-yellow-600 text-white">
-        <small>Copyright 2024 &copy; All rights reserved</small>
+        <small>Copyright 2025 &copy; All Rights Reserved</small>
       </div>
     </footer>
   );

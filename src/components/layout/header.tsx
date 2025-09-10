@@ -38,7 +38,7 @@ function Header({
   const path = usePathname();
   return (
     <header className="sticky top-0 h-20 bg-white border-b z-50">
-      <Container className="flex items-center justify-between py-2 h-full">
+      <Container className="grid grid-cols-3 items-center py-2 h-full">
         <Link href="/">
           <Image
             src={stock}
@@ -46,7 +46,7 @@ function Header({
             className="w-16 aspect-square object-cover"
           />
         </Link>
-        <nav className="hidden lg:flex">
+        <nav className="hidden lg:flex justify-center gap-2">
           {content.nav.map((l) => (
             <Link
               key={l.href}
@@ -67,7 +67,7 @@ function Header({
           </Link>
         </nav>
         <Button
-          className="hidden lg:inline-flex text-base bg-yellow-600 hover:bg-yellow-600/90"
+          className="ml-auto w-fit hidden lg:inline-flex text-base bg-yellow-600 hover:bg-yellow-600/90"
           asChild
         >
           <Link href={content.button.href}>{content.button.label}</Link>

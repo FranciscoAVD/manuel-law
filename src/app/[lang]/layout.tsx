@@ -40,6 +40,16 @@ export const metadata: Metadata = {
   ],
 };
 
+/**
+abogado en Florida
+abogado en Miami
+abogado federal
+abogado penal
+abogado civil
+abogado de familia
+abogado de apelaciones 
+*/
+
 export async function generateStaticParams() {
   return [{ lang: "en-US" }, { lang: "es" }];
 }

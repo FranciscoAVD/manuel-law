@@ -31,6 +31,7 @@ import stock from "@p/stock.jpg";
 import { Textarea } from "@/components/ui/textarea";
 import { formatPhoneNumber } from "@/lib/utils";
 import { toast } from "sonner";
+import Link from "next/link";
 
 function validDate(): Date {
   let valid = addDays(startOfToday(), 1);
@@ -45,6 +46,10 @@ function Contact({
 }: {
   content: {
     title: string;
+    switch: {
+      label: string;
+      href: string;
+    };
     form: {
       name: string;
       consultationMethod: {
@@ -81,6 +86,7 @@ function Contact({
         };
       };
       details: string;
+      pricing: string;
       button: string;
     };
   };
@@ -94,10 +100,15 @@ function Contact({
 
   return (
     <section id="contact" className="grid lg:grid-cols-2 h-fit">
-      <div className="py-20 px-10 space-y-6 bg-neutral-100 border-y">
+      <div className="py-20 px-10 bg-neutral-100 border-y">
         <h2 className="text-[36px] text-center">{content.title}</h2>
-
-        <form method="POST" className="flex flex-col gap-y-4">
+        <Link
+          href={content.switch.href}
+          className="block text-center text-sm underline"
+        >
+          &#40;{content.switch.label}&#41;
+        </Link>
+        <form method="POST" className="mt-6 flex flex-col gap-y-4">
           <div>
             <Label htmlFor="name" className="sr-only">
               {content.form.name}
@@ -187,7 +198,7 @@ function Contact({
                   <div className="flex items-center">
                     <Input
                       name="date"
-                      value={date ? format(date, "yyyy-MM-dd") : ""}
+                      value={date ? format(date, "MM-dd-yyyy") : ""}
                       placeholder={content.form.date}
                       className="border-none cursor-default"
                       readOnly
@@ -261,6 +272,7 @@ function Contact({
               required
             />
           </div>
+          <p className="text-xs text-muted-foreground">{content.form.pricing}</p>
           <Button type="submit" className="uppercase">
             {isLoading ? (
               <div className="size-5 rounded-full border-2 border-neutral-100 border-t-neutral-500 animate-spin" />
