@@ -40,7 +40,6 @@ export const metadata: Metadata = {
     "Appellate Lawyer",
   ],
 };
-
 /**
 abogado en Florida
 abogado en Miami
