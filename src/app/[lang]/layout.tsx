@@ -19,7 +19,8 @@ const quattrocento = Quattrocento({
 
 export const metadata: Metadata = {
   title: "Manuel Alejandro Law Firm",
-  description: "Attorney at law in the state of Florida.",
+  description:
+    "South Florida attorney who practices criminal, civil, family, and appellate law in federal and Florida state jurisdictions. Schedule your free 30-minute telephone or video consultation today.",
   keywords: [
     "South Florida Attorney",
     "South Florida Lawyer",
@@ -48,10 +49,11 @@ abogado penal
 abogado civil
 abogado de familia
 abogado de apelaciones 
+Abogado del sur de Florida quien practica derecho penal, civil y de familia y apelaciones en las jurisdicciones federales y de Florida. Coordine su consulta de 30 minutos gratuita por teléfono o vídeo hoy.
 */
 
 export async function generateStaticParams() {
-  return [{ lang: "en-US" }, { lang: "es" }];
+  return [{ lang: "en" }, { lang: "es" }];
 }
 
 export default async function RootLayout({
@@ -68,9 +70,13 @@ export default async function RootLayout({
       <body
         className={`${inter.variable} ${quattrocento.variable} antialiased`}
       >
-        <Header content={dict.layout.header}/>
+        <Header content={dict.layout.header} />
         {children}
-        <Footer lang={lang} content={dict.layout.footer} services={dict.pages.services.services}/>
+        <Footer
+          lang={lang}
+          content={dict.layout.footer}
+          services={dict.pages.services.services}
+        />
       </body>
     </html>
   );
