@@ -1,0 +1,494 @@
+{
+  "pages": {
+    "home": {
+      "hero": {
+        "title": ["Justicia.", "Estrategia.", "Servicio Económico."],
+        "description": "En Manuel Alejandro Law Firm, estamos comprometidos a proveer representación legal práctica, táctica y económica acomodado a sus necesidades.",
+        "button": {
+          "label": "Coordine una Consulta Gratuita",
+          "href": "/es#contact"
+        }
+      },
+      "services": {
+        "title": "Especialidades",
+        "cards": [
+          {
+            "label": "Defensa Penal",
+            "hover": "y más",
+            "href": "/es/services"
+          },
+          {
+            "label": "Derecho de Familia",
+            "hover": "y más",
+            "href": "/es/services"
+          },
+          {
+            "label": "Casos Civiles",
+            "hover": "y más",
+            "href": "/es/services"
+          }
+        ],
+        "button": {
+          "label": "y más",
+          "href": "/es/services"
+        }
+      },
+      "team": {
+        "title": "Conozca a su Equipo",
+        "team": [
+          {
+            "name": "Catherine S. Aguilera, Esq.",
+            "role": "Abogada",
+            "href": "/es/team#catherine"
+          },
+          {
+            "name": "Manuel Alejandro Franco, Esq.",
+            "role": "Abogado",
+            "href": "/es/team#manuel"
+          },
+          {
+            "name": "Leslie Ann Franco",
+            "role": "Asistente legal",
+            "href": "/es/team#leslie"
+          }
+        ],
+        "button": {
+          "label": "Más Información",
+          "href": "/es/team"
+        }
+      },
+      "reviews": {
+        "title": "Experiencias de Clientes                                                                                                                                                                                                                                                                                                                                                            ",
+        "cards": [
+          {
+            "client": "Edgar",
+            "review": "Manuel me representó luego que me arrestaron de manera injusta. Él siempre estuvo muy atento y paciente y contestaba todas mis preguntas. Él me ayudó a conseguir la desestimación de mi caso y estoy satisfecho con sus servicios."
+          },
+          {
+            "client": "Daysi",
+            "review": "Manuel has helped me in two different legal matters. It is clear that he cared about my situation and tried hard to get me the best results. I was satisfied with his services and would recommend him to anyone in need of a lawyer."
+          },
+          {
+            "client": "Esther",
+            "review": "Gracias a la ayuda del licenciado Manuel Franco pude cerrar un capítulo difícil en mi vida. Agradezco la sensibilidad, profesionalismo y rapidez con la que trabajó mi divorcio. Tener un abogado eficaz, pero empático fue muy importante para mí y mi familia."
+          },
+          {
+            "client": "Tamara",
+            "review": "El Lic. Franco me ayudó en una situación frustrante donde quería hacer una demanda. Fue extremadamente honesto conmigo y me explicaba todo con lujo de detalles. Resulta que después que él investigó varios asuntos legales en el caso, decidimos que no era costo efectivo demandar ya que lo que podía ganar iba a ser muy poco comparado con lo que tendría que pagarle por sus servicios. Lo que más me impresionó es que me devolvió todo el dinero a pesar de que fue obvio que le tomó mucho tiempo hacer las investigaciones y discutir los resultados conmigo."
+          },
+          {
+            "client": "Félix",
+            "review": "Manuel me representó en un caso moralmente injusto y serio donde estaba mi libertad y el futuro de mi familia en juego. Él siempre estuvo muy atento de mí y de mi familia y tomaba el tiempo de explicarnos todo con calma y precisión. De verdad que siento que dio el todo para lograr lo mejor para nosotros y esto dio fruto ya que estamos muy satisfechos con el resultado. Mi familia pudo quedar unida gracias al esfuerzo sincero que nos brindó Manuel."
+          },
+          {
+            "client": "Anibal",
+            "review": "Manuel helped me through some difficult legal issues. I was impressed with his strategies and detailed explanations as to how to approach complex situations. But most of all, I felt like he genuinely cared about trying to help me. Despite the situation I was in, he made me feel much more relaxed. I would recommend Manuel in a heartbeat."
+          },
+          {
+            "client": "Zara",
+            "review": "I would highly recommend Manuel as a lawyer to anyone in need. I was very worried about a loved one who was in legal trouble with no real understanding of what was going to happen. It was such a relief when I spoke to Manuel who explained everything in detail and answered all of my questions thoroughly. Manuel did not have to do all this because I was technically not his client, but he did all of this anyway just to put my mind at ease. I felt comfortable and more relaxed after speaking to Manuel and he was with us every step of the way. He never hesitated to answer any of our questions and was always a phone call away. My family and I appreciate everything Manuel did for us and for making this process so smooth. Look no further, Manuel will always be your guy!"
+          }
+        ]
+      },
+      "contact": {
+        "title": "Coordine una Consulta Confidencial y Gratuita de 30 Minutos",
+        "form": {
+          "name": "Nombre",
+          "consultationMethod": {
+            "label": "Manera Preferida para la Consulta",
+            "options": {
+              "phone": "Llamada Telefónica",
+              "video": "Videollamada"
+            }
+          },
+          "preferredLanguage": {
+            "label": "Idioma Preferido para la Consulta",
+            "options": {
+              "en": "Inglés",
+              "es": "Español"
+            }
+          },
+          "phone": "Número de Teléfono",
+          "email": "Correo Electrónico",
+          "date": "Escoja una Fecha",
+          "time": {
+            "label": "Hora del Día",
+            "options": {
+              "morning": "Mañana",
+              "afternoon": "Tarde",
+              "evening": "Noche"
+            }
+          },
+          "florida": {
+            "label": "Esto es un asunto de Florida?",
+            "options": {
+              "yes": "Sí",
+              "no": "No",
+              "unsure": "No estoy seguro(a)"
+            }
+          },
+          "details": "Cuéntenos de su situación en pocas palabras. Favor de incluir el número de caso si lo tiene.",
+          "button": "SOMETER"
+        }
+      }
+    },
+    "services": {
+      "title": "servicios que te ofrecemos",
+      "services": [
+        {
+          "name": "Adopciones",
+          "description": "Adoptando a un niño puede ser lo mejor que le ha pasado. No obstante, a veces las adopciones ser complicados, especialmente cuando existen objeciones a dicha adopción. Por otro lado, usted podría ser un padre quien está tratando de detener que otro adopte a su hijo. En cualquiera de estas situaciones, usted podría necesitar un abogado con experiencia para argumentar su caso de manera efectiva y proteger sus derechos como padre. Si necesita representación en un caso de adopción actual o futuro, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso de adopción actual o futuro, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Apelaciones",
+          "description": "A pesar de tener las mejores intenciones, errores ocurren en la administración de justicia. El proceso de apelación existe para tratar de corregir las injusticias causados por estos errores. ¿Perdió su caso porque el juez se equivocó? ¿Ganó su caso pero su oponente apeló? En cualquiera de estas situaciones, debería considerar contratar a un abogado con experiencia para argumentar su caso. Si necesita representación en un caso de apelación actual o futuro, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso de apelación actual o futuro, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Casos de Arbitraje",
+          "description": "Muchos contratos requieren que las disputas legales se resuelvan en arbitraje, lo que quiere decir que su diputa se tiene que radicar y argumentar en un foro privado y no tradicional. El arbitraje es un proceso alabado por muchos por ser más eficiente, costo efectivo y privado que una corte tradicional. No obstante, muchos otros están en desacuerdo con la proclamación de que es más costo efectivo. A veces no está en sus manos si quiere o no llevar su caso a arbitraje. Si necesita representación en un caso de arbitraje actual o futuro, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso de arbitraje actual o futuro, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Violación de Contrato",
+          "description": "Cuando las personas piensan en un contrato, piensan en un papel formal. No obstante, los contratos o acuerdos verbales—aunque pueden ser más difíciles de probar—usualmente son válidos y efectivos también. ¿Pero de qué sirve un contrato si un firmante lo viola? Si alguien se niega a cumplir con su contrato (le que llamamos una “violación de contrato”), usted probablemente tendrá que llevarlo a corte para hacerlo valer o que le paguen por los daños causados por la violación. Por otra parte, si usted es quien se le acusa de haber violado el contrato, puede tener defensas válidas que se deben considerar. En cualquiera de estas situaciones, debería considerar contratar un abogado con experiencia que argumente su caso de manera propia y efectiva. Si necesita representación en un caso de violación de contrato actual o futuro, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso de violación de contrato actual o futuro, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Evaluaciones de su Caso",
+          "description": "A veces su situación es tan compleja que no podemos evaluar su caso adecuadamente durante una breve consulta. Cuando esto sucede, le podemos ofrecer un servicio de evaluar su caso, lo cual podría incluir una investigación legal y la obtención y evaluación de la evidencia disponible para proveerle una estimación inicial de sus probabilidades de éxito y potenciales peligros. Si necesita ayuda entendiendo si tiene o no un caso fuerte, coordine hoy su consulta gratis.",
+          "closing": "Si necesita ayuda entendiendo si tiene o no un caso fuerte, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Casos Civiles",
+          "description": "Siempre he encontrado la frase “caso civil” bastante irónico ya que no tienen nada de “civil”. Casos civiles es una categoría amplia de casos donde, en general, se solicita compensación monetaria para remediar un mal. Algunos tipos de casos civiles comunes son violaciones de contrato, desalojamientos y acciones torticeras. Si quiere radicar un caso civil o defenderse en un caso civil, debería considerar contratar un abogado civil con experiencia para proteger sus derechos y probar su caso. Si necesita representación en un caso civil actual o futuro, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso civil actual o futuro, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Casos de Derechos Constitucionalidades",
+          "description": "Toda persona—incluyendo un extranjero ilegal—tiene derechos bajo la constitución de Estados Unidos. Si se viola cualquiera de sus derechos constitucionales, puede buscar justicia, lo que podría incluir pagos por los daños que ha sufrido. Algunas violaciones constitucionales comunes son los arrestos ilegales, registros ilegales y abuso policiaco. Si necesita representación en un caso constitucional actual o futuro, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso constitucional actual o futuro, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Preparación de Contratos",
+          "description": "Es tentador usar una plantilla de contrato encontrado por internet para evitar el sobrepago a un abogado. Desafortunadamente, muchos de estos contratos estándares que se encuentran por internet pueden ser mejorado y adoptado a su situación específica para aumentar sus protecciones, añadir clarificaciones y minimizar el litigio. El hecho de que quiera usar un contrato por escrito en primer lugar es un buen indicio de que el acuerdo es lo suficientemente importante de querer el mejor contrato posible. Contratos deficientes son minas terrestres para el litigio, estrés e incertidumbre. Si usted necesita crear un contrato, debe considerar contratar a un abogado con experiencia para hacerlo bien. Si necesita preparar o modificar un contrato, coordine hoy su consulta gratis.",
+          "closing": "Si necesita preparar o modificar un contrato, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Negociación de Contratos",
+          "description": "Muy frecuentemente las personas firman los contratos sin tan siquiera intentar negociar sus términos. Recuerda, si hay algo en un contrato a lo cual no está de acuerdo, no tiene que firmarlo. Negociar es una destreza valiosa que se aprende y se estudia. Manuel Alejandro Franco ha tenido la oportunidad de negociar contratos de mucho valor a favor de figuras públicas conocidas. Si necesita representación en una negociación de contrato, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en una negociación de contrato, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Defensa Penal",
+          "description": "Cuando su libertad está en juego, necesita un abogado penal experimentado para protegerlo de abusos gubernamentales y preparar una estrategia efectiva para su caso. Sea inocente o culpable, usted tiene derechos y se tienen que proteger y hacer valer. Manuel Alejandro Franco tiene experiencia en los tres lados de un caso penal: fue oficial jurídico de un juez federal, un fiscal en Florida y ha sido abogado de defensa por varios años. Si necesita representación en un caso penal actual o futuro, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso penal actual o futuro, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Declaraciones de Tutor en Caso de Incapacidad",
+          "description": "Si usted se incapacita, ¿le gusta la idea de que un juez quien nunca lo conoció decida quien se encargará de cuidar sus hijos? Aún si el juez tiene las mejores intenciones, esto es una propuesta aterradora. No obstante, si prepara una declaración de un tutor en caso de incapacidad (“declaration of pre-need guardian”), deja claro sus intenciones y el juez usualmente va a actuar acorde con la declaración. Si necesita un abogado que prepare su declaración de tutor en caso de incapacidad, coordine hoy su consulta gratis.",
+          "closing": "Si necesita un abogado que prepare su declaración de tutor en caso de incapacidad, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Casos de Difamación",
+          "description": "Difamación es un área compleja del derecho. Esto es porque la ley trata de balancear nuestro derecho a la libre expresión con el derecho de detener que otros le hagan daño a su reputación con alegaciones falsas. Curiosamente, el estándar legal de lo que se considera difamación es distinto dependiendo si la víctima es o no una figura pública. Además, ya que tenemos la libertad de compartir nuestras opiniones razonables y podemos exagerar para lograr un efecto literario o cómico, no es siempre obvio si algo es difamatorio o si es simplemente un ejercicio válido de la libre expresión. Todo esto para decir que un abogado experimentado es una herramienta valiosa en este tipo de caso. Si necesita representación en un caso de difamación actual o futura, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso de difamación actual o futura, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Casos de Divorcio",
+          "description": "Los divorcios convierten lo que era un matrimonio lleno de amor a una mera transacción de negocio. Nadie quien se casa por amor piensa que se vana terminar divorciando. No obstante, cuando se encuentra en el medio de un divorcio, tiene que hacer lo mejor de la situación y proteger su futuro con consecuencias mínimas a sus hijos. Un divorcio puede ser abrumador y drenarlo de manera emocional y financiera. Si está pensando en un divorcio, debe tomar ciertos pasos para protegerse antes de hacerlo. Nosotros manejamos estos tipos de caso con un enfoque pragmático para tratar de ayudar a nuestros clientes a pasar la página y seguir con su vida. Si necesita representación en un caso de divorcio actual o futura, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso de divorcio actual o futura, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Casos de Violencia Doméstica",
+          "description": "Aunque no apoyamos la violencia doméstica, muchos de los que son acusados son inocentes o, si son culpables, no merecen un castigo excesivo. Casos penales de violencia doméstica son notorios por ser difíciles de probar debido a tecnicismos de las reglas de evidencia y los derechos constitucionales de un acusado. Manuel Alejandro Franco tiene experiencia en estos casos tanto como fiscal como abogado de defensa. Si contrata un abogado experimentando, puede hacer una gran diferencia en su situación. Si necesita representación en un caso de violencia doméstica actual o futura, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso de violencia doméstica actual o futura, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Casos de Manejar Bajo Estado de Embriaguez",
+          "description": "Conducir bajo estado de embriaguez (conocido en inglés como “DUI”)—aún en casos sin choques y lesiones—es un crimen sorprendentemente serio en Florida. Lo pueden multar miles de dólares, suspenderle la licencia y puede ir hasta preso. Hay mucha más complejidad en estos casos de lo que parece a primera vista porque hay requisitos procesales específicos, inusuales y a veces raros que tienen que seguir los policías para que el caso pueda mantenerse. Manuel Alejandro Franco fue entrenado por el estado de Florida como fiscal para manejar estos casos. Puede aprovechar su conocimiento y vasta experiencia contratándolo para defenderlo. Si necesita representación en un caso de conducir bajo estado de embriaguez actual o futura, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso de conducir bajo estado de embriaguez actual o futura, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Casos de Droga",
+          "description": "Por décadas, nuestro gobierno ha estado invirtiendo enormes cantidades de dinero perdiendo la guerra en contra de las drogas. A pesar de las buenas intenciones, los narcóticos ilegales son más fáciles que nunca para obtener. Cada vez que una persona es encarcelada, otra persona rápidamente toma su lugar. Algunos delitos comunes de droga son por posesión, manufacturación, distribución y tráfico. Algunas de las drogas ilegales más comunes son la cocaína, heroína, fentanilo y metanfetamina. Es crucial que una persona quien esté enfrentando estos cargos tenga un abogado experimentado para proteger sus derechos. Si necesita representación en un caso de droga actual o futura, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso de droga actual o futura, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Desalojos",
+          "description": "Una de las cosas más frustrantes de ser un arrendador es lo ineficiente que es el proceso de desalojamiento. Si arrienda propiedades a otros, un caso de desalojamiento puede impactar seriamente su inversión. Por otro lado, si eres un arrendatario y su arrendador intenta violar sus derechos, va a necesitar un abogado experimentado a su lado. Si necesita representación en un caso de desalojo, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso de desalojo, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Servicios de Asesoría General",
+          "description": "Si maneja un negocio, posiblemente necesite un abogado confiable, competente y económico para atender asuntos legales que pueden surgir. Muchos de los mejores consejos a los negocios envuelven la prevención y minimización de dificultades legales futuras antes de que vayan a ocurrir. Si necesita un abogado de asesoría general, coordine hoy su consulta gratis.",
+          "closing": "Si necesita un abogado de asesoría general, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Interdictos de Protección",
+          "description": "¿Está siendo acechado u hostigado? ¿Teme por su seguridad? De ser así, debe considerar una petición para un interdicto de protección. Un interdicto es básicamente una orden de la corte que prohíbe o restringe que la persona lo contacte o se acerque. Si la persona viola el interdicto de cualquier forma, puede ser acusado de haber cometido un delito y encarcelado. Por otro lado, usted podría ser la persona quien se está oponiendo a un interdicto injusto. De cualquiera de las dos formas, puede beneficiarse de contratar un abogado experimentado para proteger sus derechos y probar su caso. Si necesita representación en un caso de interdicto de protección actual o futuro, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso de interdicto de protección actual o futuro, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Investigación Legal",
+          "description": "Hay veces que uno no está seguro si debe tomar acción legal o no, per desea entender mejor sus opciones. O quizás ya tiene un abogado y desea una segunda o tercera opinión en un asunto legal complejo. Desafortunadamente, a veces la ley es tan complicada que necesita un abogado para investigar el asunto y proveer opciones y sugerencias. Si necesita que un abogado le haga una investigación legal, coordine hoy su consulta gratis.",
+          "closing": "Si necesita que un abogado le haga una investigación legal, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Testamento Vital o Directivas Anticipadas",
+          "description": "El propósito de un testamento vital o directiva anticipada es dejarle saber a todos qué tipo de cuidado médico quiere—y no quiere—si terminas estando demasiado incapacitado para poder hablar por sí mismo. Por ejemplo, una cláusula común en estos documentos especifica si desea o no que lo resuciten si su corazón deja de latir. La gran diferencia entre estos documentos y un testamento normal es que el testamento normal tiene efectividad solamente después que la persona fallece. Si necesita un testamento vital o directiva anticipada, coordine hoy su consulta gratis.",
+          "closing": "Si necesita un testamento vital o directiva anticipada, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Asesor Local para Abogados de Pro Hac Vice",
+          "description": "Las cortes de Florida, tanto los estatales como los federales, podrían permitir que abogados de otras jurisdicciones practiquen en calidad de pro hac vice sin la licencia de Florida. No obstante, dicho abogado necesitará tener otro abogado local con la licencia de Florida en el caso. Si su caso es en Florida, nosotros somos la solución. Si necesita un abogado local para un asunto pro hac vice actual o futuro, coordine hoy su consulta gratis.",
+          "closing": "Si necesita un abogado local para un asunto pro hac vice actual o futuro, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Acuerdos Operativos",
+          "description": "Uno de los errores más graves que cometen los codueños de un negocio es no crear un acuerdo operativo. Un acuerdo operativo es la mejor forma de clarificar todos los aspectos importantes de una relación de negocio antes de que sucedan los problemas. ¡Y créenos cuando decimos que pueden pasar muchos problemas! ¿Qué porcentaje tiene cada dueño? ¿Cuánto capital está aportando cada uno? ¿Cómo se dividen las ganancias? ¿Cómo se dividen las tareas del negocio? ¿Quién tiene la última palabra si existe un desacuerdo en un tema particular? ¿Qué pasa si uno de los dueños fallece o se incapacite? ¿Qué pasa si uno de los dueños quiere vender su porcentaje del negocio? ¿Qué pasa si un dueño se va a la quiebra? Todas estas preguntas y más deben ser atendidos en su acuerdo operativo. No quiere darle paso a tener que invertir dinero y tiempo para litigar algo que pudo haberse evitado al tenerlo ya acordado en un acuerdo operativo. Aún si las cosas siempre se mantienen positivas entre los dueños, tener un acuerdo operativo ayuda al negocio a correr de manera más efectiva ya que se deja todo claro de un principio y evita malos entendidos. Si necesita un acuerdo operativo para su negocio actual o futuro, coordine hoy su consulta gratis.",
+          "closing": "Si necesita un acuerdo operativo para su negocio actual o futuro, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Acciones de Partición",
+          "description": "¿Eres parte dueño de una propiedad (quizás una casa o un carro) que quiere vender, pero el otro dueño no quiere? Si es así, se le puede peticionar a la corte para ordenar la venta de dicha propiedad por encima de cualquier objeción que tenga el otro dueño. Estos tipos de caso se les dice “acciones de partición” o “casos de partición”. Si necesita representación en un caso actual o futuro de partición, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso actual o futuro de partición, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Peticiones de Habeas Corpus",
+          "description": "Aunque puede sonar complicado, una petición de habeas corpus es entendido de la mejor manera como una solicitud para una orden para que se traiga a una persona arrestado o encarcelado injustamente para ser liberado o, al menos, traído ante un juez para discutir el asunto. La radicación de una petición de habeas corpus propia puede ser procesalmente complejo y teniendo in abogado experimentado puede ayudar a mover las cosas de una manera más rápida. Si necesita representación en un caso actual o futuro de habeas corpus, coordiofene hoy su consulta gratis.",
+          "closing": "Si necesita representación en un caso actual o futuro de habeas corpus, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Peticiones de Cambio de Nombre",
+          "description": "¿No le gusta su nombre? ¿No quiere estar más asociado a su familia loca? ¿Desea cambiar cómo se escribe su nombre? De ser así, puede peticionar a la corte para que se lo cambien legalmente. Si necesita representación en un asunto de cambio de nombre actual o futuro, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en un asunto de cambio de nombre actual o futuro, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Poderes",
+          "description": "Un poder es básicamente un documento formal permitiendo que otra persona (llamado “apoderado”) actúe de manera legal en su lugar. Son muy versátiles y pueden ser modificados para limitar el poder concedido. Un poder puede ser una solución conveniente cuando tiene que hacer algo, pero no tiene el tiempo de hacerlo. Por ejemplo, con un poder apropiado, el apoderado puede negociar y firmar contratos a su nombre o acceder y vender su propiedad. Por supuesto, esto solamente tiene sentido si el apoderado es alguien en quien confía incondicionalmente y que tiene sus mejores intereses presentes. Una forma inteligente de usar un poder es para darle acceso a un ser querido de confianza a sus bienes para poder cuidarlo en caso de que se incapacite. Si le interesa crear un poder, coordine hoy su consulta gratis.",
+          "closing": "Si le interesa crear un poder, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Acuerdos Prenupciales o Posnupciales",
+          "description": "Un acuerdo prenupcial o posnupcial es cuando los esposos formalmente acuerdan asuntos financieros en caso de que ocurra un divorcio. Un acuerdo prenupcial se hace antes de casarse y un acuerdo posnupcial se hace después de casarse. Cuando hay un matrimonio, siempre puede haber un divorcio. La formalización de un acuerdo prenupcial o posnupcial puede ser una buena idea ya que un divorcio puede afectar sus finanzas por el resto de su vida. Cuando ocurre un divorcio, un juez decide cómo dividir todos los bienes y cuánto se debe pagar en una pensión alimenticia. Un buen acuerdo prenupcial o posnupcial frecuentemente saca el criterio del juez de la ecuación y protege las intenciones reales de las partes. Si le interesa crear un acuerdo prenupcial o posnupcial, coordine hoy su consulta gratis.",
+          "closing": "Si le interesa crear un acuerdo prenupcial o posnupcial, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Acciones Reivindicatorias",
+          "description": "¿Alguien se está rehusando a devolverle su propiedad? ¿La policía se niega a ayudar? De ser así, se puede radicar una petición para que un juez emita una orden para la devolución de su propiedad (llamado un “writ of replevin”). Por otro lado, si usted tiene la propiedad de otro por causa de una falta de pago, debe proteger sus derechos también. En cualquiera de estas situaciones, debe considerar la contratación de un abogado experimentado para proteger sus derechos y argumentar su caso. Si necesita representación en una acción reivindicatoria actual o futura, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en una acción reivindicatoria actual o futura, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Sellamiento y Eliminación de Antecedentes Penales",
+          "description": "¿Tiene preocupación de que su patrono se entere de su historial criminal? Si ha sido arrestado o convicto en una corte estatal de Florida y quiere limpiar su nombre, debería averiguar si cualifica para que se selle o elimine su caso previo. Si se logra sellar o eliminar dicho caso, es esencialmente inaccesible y, en muchos aspectos, como si nunca hubiese pasado. Estas son herramientas poderosas creado por ley para que las personas puedan evitar el estigma de tener un historial criminal. Si necesita representación para sellar o eliminar su antecedente penal, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación para sellar o eliminar su antecedente penal, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Acciones Torticeras",
+          "description": "El término “acción torticera” es una forma general de describir cuando una persona ilícitamente le ocasiona daños a otro. Usualmente, una acción torticera es el remedio adecuado para demandar cuando no existe un contrato entre las partes. Ejemplos comunes son casos de difamación, agresión y fraude. Por otro lado, una persona demandada por una acción torticera tiene derecho a defenderse y presentar su caso. En cualquiera de estos casos, debe considerar la contratación de un abogado experimentado para proteger sus derechos y argumentar su caso de manera efectiva. Si necesita representación en una acción torticera actual o futura, coordine hoy su consulta gratis.",
+          "closing": "Si necesita representación en una acción torticera actual o futura, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Testamentos",
+          "description": "Todos deben considerar si necesitan un testamento. Sin testamento, está en efecto acordando que el gobierno es quien decide cómo se va a distribuir su propiedad cuando fallezca. El problema es que mucha gente ni sabe lo que dice la ley de distribución después de un fallecimiento y, si sí saben, no van a estar pendiente a cualquier cambio a la ley. La creación de un testamento puede darle una vida de paz y tranquilidad porque deja claro cómo es que quiere que se distribuya su propiedad después de fallecer. Si necesita crear o cambiar un testamento, coordine hoy su consulta gratis.",
+          "closing": "Si necesita crear o cambiar un testamento, coordine hoy su consulta gratis."
+        },
+        {
+          "name": "Servicios de Contratación de Abogado",
+          "description": "Algunos bufetes de abogado necesitan insumo legal en un punto de derecho difícil y especializado. Por otro lado, un bufete puede estar corto de personal y no capaz de mantenerse al día con todo su trabajo. En estas circunstancias, contratando un abogado fuera del bufete puede ser una buena solución. Si necesita servicios de contratación de abogado, coordine hoy su consulta gratis.",
+          "closing": "Si necesita servicios de contratación de abogado, coordine hoy su consulta gratis."
+        }
+      ]
+    },
+    "team": {
+      "title": "",
+      "boss": {
+        "name": "manuel alejandro franco, esq.",
+        "headers": {
+          "education": {
+            "label": "Educación",
+            "degrees": [
+              {
+                "title": "Juris Doctor",
+                "school": "Universidad Interamericana de Puerto Rico"
+              },
+              {
+                "title": "Bachillerato en Ciencias en Ingeniería Eléctrica",
+                "school": "Florida International University"
+              }
+            ]
+          },
+          "law": {
+            "label": "Licencias de Abogacía",
+            "bars": [
+              "Estado de Florida",
+              "Estado Libre Asociado de Puerto Rico",
+              "Corte Federal, Distrito Sur de Florida",
+              "Corte Federal, Distrito Central de Florida",
+              "Corte Federal, Distrito Norte de Florida",
+              "Corte Federal, Distrito de Puerto Rico",
+              "Tribunal de Apelaciones del Primer Circuito",
+              "Tribunal de Apelaciones del Onceado Circuito"
+            ]
+          }
+        },
+        "bio": [
+          "Manuel Alejandro Franco fue un estudiante de derecho sobresaliente quien trabajó como oficial jurídico federal por tres años y medio, un fiscal en Florida por dos años, un asociado de rango (“Chief Associate”) en un bufete de abogado por año y medio y un eventual asociado principal (“Senior Associate”) en otro bufete de abogado por otros tres años. El 3 de julio de 2023, fundó su propio bufete de abogado: Manuel Alejandro Law Firm, LLC. Manuel trae pasión y dedicación a su profesión y es dedicado a lograr el mejor resultado para sus clientes.",
+          "Manuel se destacó en la escuela de derecho y recibió el premio del Instituto para el Desarrollo del Derecho por tener el promedio de calificaciones más alto de la clase graduanda en cursos de derecho penal. Similarmente, el Colegio de Abogados de Puerto Rico lo confirió el premió de Benicio Sánchez Castaño por su excelencia académica en los cursos de derecho penal.",
+          "Días después de pasar la reválida de Puerto Rico, fue ofrecido una oportunidad valiosa de trabajar como oficial jurídico del Hon. Daniel R. Domínguez en la corte federal para el distrito de Puerto Rico, donde trabajó cuando era estudiante de derecho. Durante este periodo, Manuel investigó y preparó numerosas opiniones y órdenes, muchos de ellos publicados, en una variedad de asuntos legales complejos en todos tipos de casos penales y civiles. Afortunadamente, ninguna de estas opiniones fue revocada en apelación. Durante esta etapa, Manuel pudo aprender a ver casos y abogados de la perspectiva de un juez, lo cual es una destreza muy importante para poseer cuando se está creando, argumentando y litigando un caso. Lo más importante es que Manuel estuvo en una posición para poder evaluar y adoptar las estrategias más efectivas de litigio de diferentes abogados para usarlo a favor de sus clientes en el futuro.",
+          "Luego, Manuel se convirtió en un fiscal estatal del séptimo circuito judicial de Florida. Sus colegas todavía lo fastidian acerca de esto porque el cambio de trabajo requirió una reducción enorme de salario. No obstante, Manuel sentía el compromiso de usar su posición como fiscal para tratar de ayudar a traerle la justicia a todos. Solamente días después de ser contratado, fue llamado a enjuiciar cientos de casos a la vez, lo cual requería participación casi diaria en la corte, investigaciones legales exhaustivas y preparación incansable para juicios. Fue asignado docenas de casos nuevos por semana y tenía la responsabilidad de evaluar, investigar, radicar, argumentar y llevar estos casos a juicio si fuese necesario. Este trabajo le enseñó a Manuel cómo pensar y reaccionar en la corte y cómo investigar y preparar un caso correctamente para juicio. Manuel ahora usa todas estas destrezas para pelear por los derechos de sus clientes.",
+          "Después, Manuel comenzó a trabajar en la práctica privada. Durante esta época, ha litigado muchos tipos de caso civil, penal, apelativo, administrativo y de arbitraje. Esto incluía casos en varios estados y jurisdicciones, tanto en el foro estatal y federal. También preparó contratos, poderes, acuerdos de transacción y varios otros documentos extrajudiciales. Manuel negoció resoluciones favorables en el contexto penal y civil y ha tenido la oportunidad de representar a clientes conocidos en varios tipos de caso.",
+          "Manuel habla y escribe inglés y español con fluidez. Tiene una trayectoria multicultural y ha vivido en Estados Unidos, Puerto Rico y Colombia. Algunos de sus pasatiempos son ver películas, cocinar y jugar ajedrez. Es un pensador innovador y está dedicado a lograr el mejor resultado para sus clientes."
+        ]
+      },
+      "members": [
+        {
+          "name": "catherine s. aguilera, esq.",
+          "headers": [
+            {
+              "label": "NECESITA TITULO",
+              "notes": "Catherine S. Aguilera es una abogada dedicada en Manuel Alejandro Law Firm donde practica el derecho penal, civil, de familia y de apelación in la jurisdicción federal y estatal de Florida."
+            },
+            {
+              "label": "NECESITA TITULO",
+              "notes": "Nacida en Honduras y residente de Florida desde 1l 1998, Catherine ha sido apasionada hacia el derecho desde los seis años. Obtuvo dos títulos de bachillerato de Florida International University en el 2013—uno en justicia penal y otro en ciencias políticas—además de una certificación en estudios de seguridad nacional. Ansiosa de lograr su sueño de toda la vida, se graduó con un Juris Doctor de la escuela de derecho de Barry University en el 2018 donde también adquirió una certificación de honores en el derecho del medioambiente y la tierra."
+            }
+          ],
+          "bio": [
+            "El recurrido legal de Catherine comenzó en el 2012 con un internado en la oficina del defensor público en el condado de Miami Dade, donde adquirió experiencia inicial en el derecho penal. Mientras estaba en la escuela del derecho, hizo un internado en la fiscalía de Orlando, continuando su desarrollo en el derecho penal. Catherine también participó en la clínica del derecho del medioambiente y tierra adquiriendo experiencia de primera mano en la argumentación e investigación legal. Adquirió experiencia valiosa durante su permanencia breve en un bufete de abogados de inmigración aumentando su conocimiento legal.",
+            "Con anterioridad de pasar la reválida de Florida en el 2024, Catherine trabajó como asistente de investigación de negocio, afilando sus destrezas de investigación y análisis. Luego, se unió a Manuel Alejandro Law Firm en octubre del 2024, donde se enfoca en el derecho penal, civil, de familia y de apelaciones. Catherine se dedica a ayudar a clientes a navegar dificultades legales con apoyo personalizado, profundo y respetuoso.",
+            "Catherine habla el inglés y español con fluidez, habla portugués conversacional y tiene conocimiento básico del francés, coreano e italiano. Aparte de su práctica del derecho, le gusta leer, explorar culturas nuevas, atender eventos de música en vivo y la fotografía artística. Habiendo participado en un programa de verano en España durante la escuela de derecho, Catherine aspira a ampliar su perspectiva global con más viajes.",
+            "Catherine tiene el compromiso de convertirse en una abogada completa y versátil, balanceando su conocimiento en asuntos de litigio y transacción, tal como las negociaciones y creaciones de contrato. Ella aspira a proveer soluciones legales comprensivas personalizados para las necesidades particulares de sus clientes. Catherine sigue el lema de Manuel Alejandro Law Firm, “En busca de justicia a través de una representación legal práctica, táctica y económica”, y es dedicada al crecimiento del bufete. Con las aspiraciones de expandir las áreas de práctica del bufete, ella desea trabajar una multitud de casos y contribuir a su evolución continua."
+          ]
+        },
+        {
+          "name": "leslie ann franco",
+          "headers": [
+            {
+              "label": "NECESITA TITULO",
+              "notes": "Leslie tiene un Bachillerato en Educación Secundaria en la Universidad de Puerto Rico. Se graduó en el año 2006 con el honor de Magna Cum laude. Trabajó en el sistema público de Puerto Rico como maestra de español por cuatro años y como maestra bibliotecaria por dos años. En el año 2014, decidió estudiar Sistemas de Oficina y se graduó Summa Cum Laude en el año 2016."
+            },
+            {
+              "label": "NECESITA TITULO",
+              "notes": "En el año 2017, se mudó a Florida en donde pudo mejorar su inglés y decidió certificarse como notaria pública del estado de la Florida."
+            }
+          ],
+          "bio": [
+            "Leslie habla español e inglés. Vivió por 34 años en su país natal Puerto Rico en dónde tuvo diferentes tipos de trabajos por casi 20 años. Tiene una amplia y diversa experiencia trabajando con servicio al cliente lo cual lo hace una profesional apta para ayudar y dar un servicio óptimo a todo cliente. Algunos de sus hobbies son cantar, leer, viajar y ver series."
+          ]
+        }
+      ]
+    }
+  },
+  "layout": {
+    "header": {
+      "nav": [
+        {
+          "label": "Inicio",
+          "href": "/es/"
+        },
+        {
+          "label": "Servicios",
+          "href": "/es/services"
+        },
+        {
+          "label": "Equipo",
+          "href": "/es/team"
+        }
+      ],
+      "language": {
+        "label": "English",
+        "href": "/en"
+      },
+      "button": {
+        "label": "Coordine una Consulta Gratuita",
+        "href": "/es#contact"
+      }
+    },
+    "footer": {
+      "locations": {
+        "title": "Ubicaciones que Servimos",
+        "counties": [
+          {
+            "county": "Miami-Dade County",
+            "districts": [
+              "Aventura",
+              "Bal Harbour",
+              "Bay Harbor Islands",
+              "Biscayne Park",
+              "Coral Gables",
+              "Cutler Bay",
+              "Doral",
+              "El Portal",
+              "Florida City",
+              "Golden Beach",
+              "Hialeah",
+              "Hialeah Gardens",
+              "Homestead",
+              "Indian Creek Village",
+              "Key Biscayne",
+              "Medley",
+              "Miami",
+              "Miami Beach",
+              "Miami Gardens",
+              "Miami Lakes",
+              "Miami Shores",
+              "Miami Springs",
+              "North Bay Village",
+              "North Miami",
+              "North Miami Beach",
+              "Opa-locka",
+              "Palmetto Bay",
+              "Pinecrest",
+              "South Miami",
+              "Sunny Isles Beach",
+              "Surfside",
+              "Sweetwater",
+              "Virginia Gardens",
+              "West Miami"
+            ]
+          },
+          {
+            "county": "Broward County",
+            "districts": [
+              "Coconut Creek",
+              "Cooper City",
+              "Coral Springs",
+              "Dania Beach",
+              "Davie",
+              "Deerfield Beach",
+              "Fort Lauderdale",
+              "Hallandale Beach",
+              "Hillsboro Beach",
+              "Hollywood",
+              "Lauderhill",
+              "Lauderdale Lakes",
+              "Lighthouse Point",
+              "Margate",
+              "Miramar",
+              "North Lauderdale",
+              "Oakland Park",
+              "Parkland",
+              "Pembroke Park",
+              "Pembroke Pines",
+              "Plantation",
+              "Pompano Beach",
+              "Southwest Ranches",
+              "Sunrise",
+              "Tamarac",
+              "Weston",
+              "West Park",
+              "Wilton Manors"
+            ]
+          }
+        ]
+      },
+      "services": "Servicios",
+      "contact": {
+        "title": "Encuéntranos"
+      }
+    }
+  }
+}

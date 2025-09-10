@@ -1,0 +1,494 @@
+{
+  "pages": {
+    "home": {
+      "hero": {
+        "title": ["Justice.", "Strategy.", "Affordability."],
+        "description": "At Manuel Alejandro Law Firm, we are committed to delivering practical, tactical, and affordable legal representation tailored to your needs.",
+        "button": {
+          "label": "Schedule a Free Consultation",
+          "href": "/en#contact"
+        }
+      },
+      "services": {
+        "title": "Areas of Expertise",
+        "cards": [
+          {
+            "label": "Criminal Defense",
+            "hover": "Learn More",
+            "href": "/en/services"
+          },
+          {
+            "label": "Family Law",
+            "hover": "Learn More",
+            "href": "/en/services"
+          },
+          {
+            "label": "Civil Cases",
+            "hover": "Learn More",
+            "href": "/en/services"
+          }
+        ],
+        "button": {
+          "label": "And More",
+          "href": "/en/services"
+        }
+      },
+      "team": {
+        "title": "Your Team",
+        "team": [
+          {
+            "name": "Catherine S. Aguilera, Esq.",
+            "role": "Lawyer",
+            "href": "/en/team#catherine"
+          },
+          {
+            "name": "Manuel Alejandro Franco, Esq.",
+            "role": "Lawyer",
+            "href": "/en/team#manuel"
+          },
+          {
+            "name": "Leslie Ann Franco",
+            "role": "Assistant",
+            "href": "/en/team#leslie"
+          }
+        ],
+        "button": {
+          "label": "Learn More",
+          "href": "/en/team"
+        }
+      },
+      "reviews": {
+        "title": "Real Reviews",
+        "cards": [
+          {
+            "client": "Edgar",
+            "review": "Manuel me representó luego que me arrestaron de manera injusta. Él siempre estuvo muy atento y paciente y contestaba todas mis preguntas. Él me ayudó a conseguir la desestimación de mi caso y estoy satisfecho con sus servicios."
+          },
+          {
+            "client": "Daysi",
+            "review": "Manuel has helped me in two different legal matters. It is clear that he cared about my situation and tried hard to get me the best results. I was satisfied with his services and would recommend him to anyone in need of a lawyer."
+          },
+          {
+            "client": "Esther",
+            "review": "Gracias a la ayuda del licenciado Manuel Franco pude cerrar un capítulo difícil en mi vida. Agradezco la sensibilidad, profesionalismo y rapidez con la que trabajó mi divorcio. Tener un abogado eficaz, pero empático fue muy importante para mí y mi familia."
+          },
+          {
+            "client": "Tamara",
+            "review": "El Lic. Franco me ayudó en una situación frustrante donde quería hacer una demanda. Fue extremadamente honesto conmigo y me explicaba todo con lujo de detalles. Resulta que después que él investigó varios asuntos legales en el caso, decidimos que no era costo efectivo demandar ya que lo que podía ganar iba a ser muy poco comparado con lo que tendría que pagarle por sus servicios. Lo que más me impresionó es que me devolvió todo el dinero a pesar de que fue obvio que le tomó mucho tiempo hacer las investigaciones y discutir los resultados conmigo."
+          },
+          {
+            "client": "Félix",
+            "review": "Manuel me representó en un caso moralmente injusto y serio donde estaba mi libertad y el futuro de mi familia en juego. Él siempre estuvo muy atento de mí y de mi familia y tomaba el tiempo de explicarnos todo con calma y precisión. De verdad que siento que dio el todo para lograr lo mejor para nosotros y esto dio fruto ya que estamos muy satisfechos con el resultado. Mi familia pudo quedar unida gracias al esfuerzo sincero que nos brindó Manuel."
+          },
+          {
+            "client": "Anibal",
+            "review": "Manuel helped me through some difficult legal issues. I was impressed with his strategies and detailed explanations as to how to approach complex situations. But most of all, I felt like he genuinely cared about trying to help me. Despite the situation I was in, he made me feel much more relaxed. I would recommend Manuel in a heartbeat."
+          },
+          {
+            "client": "Zara",
+            "review": "I would highly recommend Manuel as a lawyer to anyone in need. I was very worried about a loved one who was in legal trouble with no real understanding of what was going to happen. It was such a relief when I spoke to Manuel who explained everything in detail and answered all of my questions thoroughly. Manuel did not have to do all this because I was technically not his client, but he did all of this anyway just to put my mind at ease. I felt comfortable and more relaxed after speaking to Manuel and he was with us every step of the way. He never hesitated to answer any of our questions and was always a phone call away. My family and I appreciate everything Manuel did for us and for making this process so smooth. Look no further, Manuel will always be your guy!"
+          }
+        ]
+      },
+      "contact": {
+        "title": "Schedule a Free 30-Minute Confidential Consultation",
+        "form": {
+          "name": "Name",
+          "consultationMethod": {
+            "label": "Preferred Consultation Method",
+            "options": {
+              "phone": "Telephone Call",
+              "video": "Video Call"
+            }
+          },
+          "preferredLanguage": {
+            "label": "Preferred Language",
+            "options": {
+              "en": "English",
+              "es": "Spanish"
+            }
+          },
+          "phone": "Phone Number",
+          "email": "Email Address",
+          "date": "Choose a date",
+          "time": {
+            "label": "Time of Day",
+            "options": {
+              "morning": "Morning",
+              "afternoon": "Afternoon",
+              "evening": "Evening"
+            }
+          },
+          "florida": {
+            "label": "Is This a Florida Matter?",
+            "options": {
+              "yes": "Yes",
+              "no": "No",
+              "unsure": "Unsure"
+            }
+          },
+          "details": "Tell us about your situation in a few words.",
+          "button": "SUBMIT"
+        }
+      }
+    },
+    "services": {
+      "title": "services we offer you",
+      "services": [
+        {
+          "name": "Adoptions",
+          "description": "Adopting a child could be the best thing that has ever happened to you. However, sometimes adoptions can be complicated, especially when there are those who object to them. On the other hand, you may be a parent who is trying to stop another person from adopting your child. In either case, you may need an experienced attorney to effectively argue your case and protect your parenting rights.",
+          "closing": "If you need representation on a current or future adoption case, contact us today to schedule a your free consultation."
+        },
+        {
+          "name": "Appeals",
+          "description": "Despite having the best of intentions, mistakes are made in the administration of justice. The entire appellate process exists to try and correct injustices caused by these mistakes. Did you lose your case because the judge made a mistake? Did you win your case but your opponent appealed? In either case, you should consider hiring an experienced attorney to effectively argue your case.",
+          "closing": "If you need representation on a current or future appellate case, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Arbitration Cases",
+          "description": "Many contracts require legal disputes to be arbitrated, which is a fancy term that means that your dispute has to be filed and argued in a non-traditional private forum. Arbitration is championed by many to be more efficient, cost-effective, and private than a traditional court of law. However, many others also disagree with the cost-effectiveness claim. Whether you want to arbitrate your case or not, sometimes you do not have a choice.",
+          "closing": "If you need representation on a current or future arbitration case, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Breach of Contract",
+          "description": "When people think of a contract, they think of a formal piece of paper. However, verbal contracts or agreements—although more difficult to prove—are usually valid and enforceable as well. But what good is a contract if a signer violates it? If someone refuses to follow your contract (we call this a “breach of contract”), you will likely need to take that person to court to either enforce the contract or get paid for your damages caused by the breach. On the other hand, if you are the person accused of breaching a contract, you may have valid defenses that need to be considered. In either case, you should consider hiring an attorney to properly and effectively argue your case.",
+          "closing": "If you need representation on a current or future breach of contract case, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Case Evaluation",
+          "description": "Sometimes your situation is so complex that we will not be able to evaluate your case properly on the spot during a short consultation. When this happens, we can offer you case evaluation services, which may include legal research and the gathering and evaluation of available evidence to provide you with an overview of your chances of success and potential pitfalls. If you need help understanding if you have a good case or not, contact us today to schedule your free consultation.",
+          "closing": "If you need help understanding if you have a good case or not, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Civil Cases",
+          "description": "I have always found the term “civil case” quite ironic because there is nothing “civil” about them. Civil cases are a broad category of cases where, in general, monetary compensation is sought to compensate for a claimed wrong. Some common types of civil cases are breaches of contract, evictions, and torts. Whether you wish to file a civil case or defend yourself in a civil case, you should consider hiring an experienced civil attorney to protect your rights and prove your case. If you are seeking representation in a current or future civil case, contact us today to schedule your free consultation.",
+          "closing": "If you are seeking representation in a current or future civil case, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Constitutional Rights Cases",
+          "description": "All people—even illegal aliens—have rights under the United States Constitution. If any of your rights are violated, you may seek justice, which may include payment for any damages you experienced. Some common constitutional violations are illegal arrests, illegal searches, and police brutality. If you need representation on a current or future constitutional rights case, contact us today to schedule your free consultation.",
+          "closing": "If you need representation on a current or future constitutional rights case, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Contract Drafting",
+          "description": "It is tempting to use an online contract template to avoid overpaying for an attorney. Unfortunately, many of these standard contracts you find online can be improved or adapted to your specific situation to enhance your protections, add clarifications, and minimize litigation. The fact that you want to use a written contract in the first place is a good indicator that the agreement is important enough to you to want the best contract possible. Deficient contracts are landmines for litigation, stress, and uncertainty. If you need to create a contract, you should consider hiring an experienced attorney to do it right. If you need an attorney to prepare or modify a contract, contact us today to schedule your free consultation.",
+          "closing": "If you need an attorney to prepare or modify a contract, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Contract Negotiation",
+          "description": "All too frequently people sign contracts without even attempting to negotiate their terms. Remember, you do not have to sign a contract if it contains anything that you do not agree with. Negotiating will frequently allow you to obtain more favorable terms in the contract. Negotiation is a valuable skill that has to be learned and nurtured. Manuel Alejandro Franco has had the opportunity of negotiating high-value contracts on behalf of well-known public figures. If you need representation in your contract negotiation, contact us today to schedule your free consultation.",
+          "closing": "If you need representation in your contract negotiation, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Criminal Defense",
+          "description": "When your freedom is at stake, you need an experienced criminal defense lawyer to protect you from government abuse and properly construct an effective strategy for your case. Regardless of whether you are innocent or guilty, you have rights and they should be enforced and protected. Manuel Alejandro Franco has experience on all three sides of a criminal case: he was a former law clerk for a federal judge, a former Florida prosecutor, and has been a criminal defense attorney for several years. If you need representation on a current or future criminal case, contact us today to schedule your free consultation.",
+          "closing": "If you need representation on a current or future criminal case, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Declarations of Pre-Need Guardian",
+          "description": "If you become incapacitated, do you like the idea of a judge who has never met you deciding who takes care of you or your children? Even if the judge has the best of intentions, this is a scary proposition. However, if you prepare a valid declaration of pre-need guardian, you make your wishes clear and the judge will usually follow suit. If you need an attorney to prepare your declaration of pre-need guardian, contact us today to schedule your free consultation.",
+          "closing": "If you need an attorney to prepare your declaration of pre-need guardian, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Defamation Cases",
+          "description": "Defamation is a complex area of law. This is so because the law tries to balance our right to free speech with our right to stop others from damaging your reputation with false allegations. Curiously, the legal standard of defamation is different depending on whether or not the victim is a public figure. Also, because we have the freedom to share our own reasonably-based opinions and are able to exaggerate for literary or comedic effect, it is not always obvious what is defamatory and what is simply an exercise of protected free speech. All this to say that an experienced attorney can be a valuable asset in this type of case. If you are seeking representation in a current or future defamation case, contact us today to schedule your free consultation.",
+          "closing": "If you are seeking representation in a current or future defamation case, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Divorce Cases",
+          "description": "Divorce turns what was once a loving marriage into soulless business transaction. Nobody that marries for love ever thinks they will get divorced. However, once you do find yourself in the midst of a divorce, you need to make the best of your situation and protect your future with minimal consequences to your children. A divorce can be overwhelming and drain you emotionally and financially. If you are thinking about a divorce, you should take certain steps to protect yourself before doing so. We handle these cases with a focus on pragmatism to try and help our clients move on with their lives. If you need representation on a current or future divorce case, contact us today to schedule your free consultation.",
+          "closing": "If you need representation on a current or future divorce case, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Domestic Violence Cases",
+          "description": "Although we do not condone domestic violence, many of those accused are innocent or, even if guilty, do not deserve harsh punishment. Criminal domestic violence cases are notoriously difficult for the state to prove due to many technical evidentiary rules and an accused’s constitutional rights. Manuel Alejandro Franco has experience both prosecuting and defending domestic violence cases. If you hire an experienced attorney, it can make a big difference in your situation. If you need representation on a current or future domestic violence case, contact us today to schedule your free consultation.",
+          "closing": "If you need representation on a current or future domestic violence case, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Driving Under the Influence Cases",
+          "description": "Driving under the influence (DUI for short)—even in cases involving no crash or injuries—is a surprisingly serious crime in Florida. You can be fined thousands of dollars, have your driver’s license suspended, and can even go to jail. There is much more to a DUI case than meets the eye because there are specific, unusual, and sometimes strange procedural requirements that the police have to follow to make these cases stick. Manuel Alejandro Franco was trained by the State of Florida as a prosecutor to handle these cases. You can take advantage of this training and vast experience by hiring him to defend you. If you need representation on a current or future DUI cases, contact us today to schedule your free consultation.",
+          "closing": "If you need representation on a current or future DUI cases, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Drug Offense Cases",
+          "description": "For decades, our government has been spending an enormous amount of tax-payer money fighting a losing war against drugs. Despite these well-intentioned efforts, illegal narcotics are easier to obtain than ever. Every time one person is jailed, someone else is quick to take their place. Some common drug crimes are for the possession, manufacturing, distribution, and trafficking. A few of the most common illegal drugs are cocaine, heroin, fentanyl, and methamphetamines. It is crucial that anyone charged with this type of crime have an experienced attorney to protect their rights. If you need representation on a current or future drug case, contact us today to schedule your free consultation.",
+          "closing": "If you need representation on a current or future drug case, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Evictions",
+          "description": "One of the most frustrating things about being a landlord is how inefficient the eviction process is. If you rent out property, an eviction can have a major impact on your bottom line. On the other hand, if you are a tenant and your landlord is attempting to violate your rights, you will need an experienced attorney by your side. If you need representation on a current or future eviction case, contact us today to schedule your free consultation.",
+          "closing": "If you need representation on a current or future eviction case, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "General Counsel Services",
+          "description": "If you run a business, you may need a trusted, competent, and affordable attorney to address legal matters that may come up. Some of the best legal advice to a business revolves around the prevention or minimization of future legal troubles before they ever appear. In order to save costs, a general counsel attorney can be as involved—or uninvolved—in your business as you want them to be. If you need a general counsel attorney right now or in the future, contact us today to schedule your free consultation.",
+          "closing": "If you need a general counsel attorney right now or in the future, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Injunctions for Protection",
+          "description": "Are you being stalked or harassed? Do you fear for your safety? If so, you should consider getting an injunction for protection. An injunction is basically a court order prohibiting or restricting that person from contacting or approaching you. If the person violates the injunction in any way, they can be charged with a crime and incarcerated. On the other hand, you may be someone who is opposing an unfair request for an injunction. Either way, you would benefit from hiring an attorney to protect your rights and prove your case. If you need an attorney to represent you in a current or future injunction for protection case, contact us today to schedule your free consultation.",
+          "closing": "If you need an attorney to represent you in a current or future injunction for protection case, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Legal Research",
+          "description": "Sometimes you are just not sure whether you want to take legal action or not, but want to better understand your options. Or maybe you already have a lawyer and want a second or third opinion on a complex legal matter. Unfortunately, sometimes the law can be so complicated that you need an attorney just to research the issues and provide you options and suggestions. If you need an attorney to research your current or future situation, contact us today to schedule your free consultation.",
+          "closing": "If you need an attorney to research your current or future situation, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Living Will or Advance Directives",
+          "description": "The purpose of a living will or advance directive is to let everyone know what type of medical care you want—and do not want—if you ever become too incapacitated to speak for yourself. For example, a common clause in these documents dictate whether you want to be resuscitated or not if your heart stops beating. The major difference between these documents and a normal will is that a normal will takes effect after the person dies. If you need an attorney to prepare a living will or advance directive, contact us today to schedule your free consultation.",
+          "closing": "If you need an attorney to prepare a living will or advance directive, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Local Counsel for Pro Hac Vice Attorneys",
+          "description": "Florida courts, both state and federal, may allow pro hac vice practice for attorneys who are not licensed in Florida. However, this attorney is required to have another local attorney licensed to practice in Florida on the case. If your case is in the Florida, we are your solution. If you are looking for local counsel in a current or future case, contact us today to schedule your free consultation.",
+          "closing": "If you are looking for local counsel in a current or future case, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Operating Agreements",
+          "description": "One of the biggest mistakes co-owners of a business can make is not having an operating agreement. An operating agreement is the best way to clarify all important aspects of the business relationship before problems start. And believe us when we say that things can go very wrong! What percentage ownership does each owner have? How much capital is each person contributing to the business? How are profits divided? How are the business duties divided? Who has final say for specific business decisions? What happens if an owner dies or becomes incapacitated? What happens if one owner wants to sell their share of the business? All these questions and more should be in your operating agreement. You do not want to open yourself up to having to invest money and time litigating matters that could have already been agreed on in the operating agreement. Even if things always remain positive between owners, having an operating agreement helps the business run more efficiently because everything is clear from the beginning and misunderstandings can be avoided. If you need an operating agreement for your current or future business, contact us today to schedule your free consultation.",
+          "closing": "If you need an operating agreement for your current or future business, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Partition Actions",
+          "description": "Do you co-own property (perhaps a home or a car) that you want to sell, but the other owner does not? If so, you can petition the court to order the sale over the co-owner’s objection. These petitions are colloquially called “partition actions” or “partition cases.” If you need representation on a current or future partition action, contact us today to schedule your free consultation.",
+          "closing": "If you need representation on a current or future partition action, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Petitions for Habeas Corpus",
+          "description": "Although it may sound complicated, a petition for habeas corpus is best understood as a request for an order to get someone who has been unjustly arrested or incarcerated released or, at least, be brought before a judge to discuss the matter. Filing a proper petition for habeas corpus can be procedurally complex and using an experienced lawyer may greatly help speed things up. If you need an attorney to represent you in a current or future habeas corpus case, contact us today to schedule your free consultation.",
+          "closing": "If you need an attorney to represent you in a current or future habeas corpus case, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Petitions for Name Changes",
+          "description": "Do you not like your name? Do you no longer want to be associated by name to your crazy family? Do you want to change the spelling of your name? If so, you can petition the court to have it changed legally. If you need representation in a current or future petition to change your name, contact us today to schedule your free consultation.",
+          "closing": "If you need representation in a current or future petition to change your name, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Powers of Attorney",
+          "description": "A powers of attorney is basically formal documents allowing another person (called an “agent”) to legally act on your behalf. They are quite versatile and may be tailored to grant less power to your agent. A power of attorney can be a convenient solution when you need to do something, but you do not have the time to do so. For instance, with the right power of attorney, your agent can negotiate and sign contracts on your behalf or access and sell property in your name. Of course, this would only make sense if the agent is someone who you unconditionally trust and has your best interests at heart. One smart use of a power of attorney is granting someone you love and trust access to all your accounts so they can care for you if you ever become incapacitated. If you are interested in having an attorney prepare a power of attorney, contact us today to schedule your free consultation.",
+          "closing": "If you are interested in having an attorney prepare a power of attorney, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Prenuptial and Postnuptial Agreements",
+          "description": "A prenuptial (also called “premarital”) or postnuptial (also called “postmarital”) agreement is where the spouses formally agree on financial matters in case a divorce ever happens. A prenuptial agreement is done before the marriage while a postnuptial agreement is done after the marriage. Where there is a marriage, there can always be divorce. Formalizing a prenuptial or postnuptial agreement can be a good idea because a divorce can have an effect on your finances for the rest of your life. When a divorce happens, a judge decides how to divide up everything and how much to pay in alimony. A good prenuptial or postnuptial agreement frequently removes the judge’s criteria from the equation and protects the spouses’ true intentions. If you need an attorney to prepare or modify a prenuptial or postnuptial agreement, contact us today to schedule your free consultation.",
+          "closing": "If you need an attorney to prepare or modify a prenuptial or postnuptial agreement, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Replevin Actions",
+          "description": "Is someone refusing to return your property? Are the police refusing to help you get the property back? If so, you can petition the court for an order (called a “writ of replevin”) for the return of your property. On the other hand, if you legally possess someone else’s property due to their non-payment, you need to protect your rights as well. In either case, you should consider hiring an experienced attorney to effectively protect your right and argue your case. If you need representation on a current or future replevin case, contact us today to schedule your free consultation.",
+          "closing": "If you need representation on a current or future replevin case, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Sealings and Expungements",
+          "description": "Worried about your employer finding out about your criminal history? If you have ever been arrested or convicted in a Florida state court and want to try and clear your name, you should check if you qualify for having your prior case sealed or expunged. If said case is sealed o expunged, it is essentially inaccessible and, in many respects, as if it never happened. These are powerful tools created by law for people to avoid the stigma of having a criminal history. If you need representation in your quest to seal or expunge your case, contact us today to schedule your free consultation.",
+          "closing": "If you need representation in your quest to seal or expunge your case, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Tort Actions",
+          "description": "The term “tort” is a general way to describe when one person illicitly causes damage to another. Usually, a tort action is the adequate remedy when there is no contract between the parties. Common examples are defamation, battery, and fraud. On the other hand, a person being sued in a tort action has the right to defend themself and present their case. In either case, you should consider hiring an experienced attorney to help protect your rights and effectively argue your case. If you are seeking representation in a current or future tort case, contact us today to schedule your free consultation.",
+          "closing": "If you are seeking representation in a current or future tort case, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Wills and Testaments",
+          "description": "Everyone should consider whether they need a will. Without one, you are effectively agreeing with the government deciding how to distribute your property after you die. The problem is that many people do not even know what the law says about distribution after a death, and, even if they do know, will not be attentive of any changes to the law. The creation of a will can provide you with a lifetime of peace of mind because you make it clear how you want your property distributed after death. If you need an attorney to prepare or modify your will or testament, contact us today to schedule your free consultation.",
+          "closing": "If you need an attorney to prepare or modify your will or testament, contact us today to schedule your free consultation."
+        },
+        {
+          "name": "Of Counsel Services",
+          "description": "Some law firms may need legal advice on a difficult or niche legal topic. Alternatively, a law firm may be temporarily understaffed and unable to keep up with their work load. In either event, it makes sense to hire an outside attorney to help. If you need an “of counsel” attorney, contact us today to schedule your free consultation.",
+          "closing": "If you need an “of counsel” attorney, contact us today to schedule your free consultation."
+        }
+      ]
+    },
+    "team": {
+      "title": "Meet Your Team",
+      "boss": {
+        "name": "Manuel Alejandro Franco, Esq.",
+        "headers": {
+          "education": {
+            "label": "Education",
+            "degrees": [
+              {
+                "title": "Juris Doctor",
+                "school": "Inter American University of Puerto Rico"
+              },
+              {
+                "title": "Bachelors in Science in Electrical Engineering",
+                "school": "Florida International University"
+              }
+            ]
+          },
+          "law": {
+            "label": "Bar Admissions",
+            "bars": [
+              "State of Florida",
+              "Commonwealth of Puerto Rico",
+              "U.S. District Court, Southern District of Florida",
+              "U.S. District Court, Middle District of Florida",
+              "U.S. District Court, Northern District of Florida",
+              "U.S. District Court, District of Puerto Rico",
+              "First Circuit Court of Appeals",
+              "Eleventh Circuit Court of Appeals"
+            ]
+          }
+        },
+        "bio": [
+          "Manuel Alejandro Franco was a law school standout who worked as a federal law clerk for three and a half years, a Florida prosecutor for two years, a chief associate of a law firm for a year and a half, and an eventual senior associate in a different law firm after another three years. On July 3, 2023, he founded his own law practice: Manuel Alejandro Law Firm, LLC. Manuel brings passion and dedication to his profession and is devoted to achieving the best possible results for his clients.",
+          "Manuel excelled in law school and was given an award from the Institute of Law Development (“Instituto para el Desarrollo del Derecho”) for having the highest cumulative grade point average of the graduating class in all criminal law courses. Similarly, the Puerto Rico College of Attorneys (“Colegio de Abogados de Puerto Rico”) conferred the Benicio Sánchez Castaño Award on him for his academic excellence in criminal law courses.",
+          "Days after passing the Puerto Rico Bar Exam, he was offered a valuable opportunity to work as law clerk to the Hon. Daniel R. Domínguez in the United States District Court for the District of Puerto Rico, which was where he worked as a law student. During this period, Manuel researched and drafted countless opinions and orders, many of which are published, on a variety of intricate legal issues in all types of criminal and civil cases. Fortunately, none of these opinions were overturned on appeal. During this time, Manuel was able to learn how to see cases and attorneys from a judge’s perspective, which is a very important skill to have when building, arguing, and litigating a case. Most importantly, Manuel was in a position to properly assess and adopt the most effective litigation strategies from different attorneys to be used for his own future clients.",
+          "Thereafter, Manuel became an Assistant State Attorney in Florida’s Seventh Judicial Circuit. His colleagues still tease him about this because the change required that he unnecessarily take an enormous pay cut. However, Manuel was committed to using his position as a prosecutor to try and help bring justice to all. Only days after being hired, he was called to prosecute hundreds of cases at a time, which required almost daily participation in court, thorough investigative skills, and tireless trial preparation. He was assigned dozens of new cases a week and was responsible for evaluating, investigating, filing, arguing, and trying all these cases if necessary. This tenure taught Manuel how to think on his feet in court and properly investigate and prepare a case for trial. Manuel now uses each of these skills to fight for his clients.",
+          "Subsequently, Manuel began working in private practice. Throughout this time, he litigated many types of civil, criminal, appellate, administrative, and arbitration. These included cases in several states and jurisdictions, both in the state and federal forums. He also drafted contracts, powers of attorney, settlement agreements, and various other extrajudicial documents. Manuel negotiated favorable resolutions in both the criminal and civil context and had the opportunity to represent well-known clients in a myriad of cases.",
+          "Manuel speaks and writes fluently in English and Spanish. He has a multicultural background and has lived in the United States, Puerto Rico, and Colombia. Some of his hobbies are watching movies, cooking, and playing chess. He is an outside-the-box thinker and is committed to achieving the best possible outcome for his clients."
+        ]
+      },
+      "members": [
+        {
+          "name": "Catherine S. Aguilera, Esq.",
+          "headers": [
+            {
+              "label": "Experienced Attorney in Criminal, Family, Civil, and Appellate Law",
+              "notes": "Catherine S. Aguilera is a dedicated attorney at Manuel Alejandro Law Firm where she practices criminal, civil, family, and appellate law in both federal and Florida state jurisdictions."
+            },
+            {
+              "label": " Catherine S. Aguilera: Dedicated Legal Professional",
+              "notes": "Born in Honduras and a Florida resident since 1998, Catherine has been passionate about the law since the age of six. She earned two bachelor's degrees from Florida International University in 2013—one in Criminal Justice and the other in Political Science—along with a Certificate in National Security Studies. Eager to pursue her lifelong dream, she graduated with a Juris Doctor from Barry University School of Law in 2018 where she also earned an Environmental and Earth Law Honors Certificate."
+            }
+          ],
+          "bio": [
+            "Catherine&#39;s legal journey began in 2012 with an internship at the Miami Dade Public Defender’s Office, where she gained early experience in criminal law. While in law school, she interned at the Orlando State Attorney’s Office, further honing her skills in criminal law. Catherine also participated in the Environmental and Earth Law Clinic gaining hands-on experience in environmental advocacy and legal research. She gained valuable experience during a brief tenure at an immigration law firm, further expanding her legal expertise.",
+            "Prior to passing the Florida Bar in 2024, Catherine worked as a business research assistant, honing her research and analytical skills. Afterward, she joined Manuel Alejandro Law in October 2024, where she focuses on criminal, civil, family, and appellate law. Catherine is dedicated to helping clients navigate legal challenges with personalized, thoughtful, and respectful support.",
+            "Fluent in English and Spanish, Catherine also speaks conversational Portuguese and has basic knowledge of French, Korean, and Italian. Outside of her legal practice, she enjoys reading, exploring new cultures, attending live music events, and pursuing amateur photography. Having participated in a Summer Abroad Program in Spain during law school, Catherine looks forward to broadening her global perspective through further travel.",
+            "Catherine is committed to becoming a well-rounded, versatile lawyer, balancing her expertise in both litigation and transactional matters, such as contract negotiations and drafting. She aims to provide comprehensive legal solutions tailored to her clients&#39; diverse needs. Catherine embraces Manuel Alejandro Law&#39;s motto, “In pursuit of justice through practical, tactical, and affordable legal representation,&quot; and is dedicated to the firm&#39;s ongoing growth. With aspirations to expand the firm&#39;s practice areas, she looks forward to taking on a wide range of cases and contributing to its continued evolution."
+          ]
+        },
+        {
+          "name": "Leslie Ann Franco",
+          "headers": [
+            {
+              "label": "Leslie Ann Franco: Excellence in Education and Administration",
+              "notes": "Leslie has a Bachelor’s Degree in Education from the University of Puerto Rico. She graduated Magna Cum Laude in 2006. She worked in the public sector as a Spanish teacher for four years and as a school librarian for two years. In 2014, she decided to obtain a Bachelor’s Deree in Office Administration and she graduated Summa Cum Laude in 2016."
+            },
+            {
+              "label": "Leslie Ann Franco: Florida Notary Public and Bilingual Professional",
+              "notes": "In 2017, she moved to Florida where she was able to improve her English and decided to become a Florida notary public."
+            }
+          ],
+          "bio": [
+            "Leslie speaks Spanish and English. She lived for 34 years in her native Puerto Rico where she had various types of jobs for almost twenty years. She has an expansive and diverse level of experience working in customer service that makes her a professional apt to help and provide optimal service to all clients. Some of her hobbies are singing, reading, traveling and watching television series."
+          ]
+        }
+      ]
+    }
+  },
+  "layout": {
+    "header": {
+      "nav": [
+        {
+          "label": "Home",
+          "href": "/en"
+        },
+        {
+          "label": "Services",
+          "href": "/en/services"
+        },
+        {
+          "label": "Team",
+          "href": "/en/team"
+        }
+      ],
+      "language": {
+        "label": "Espanol",
+        "href": "/es"
+      },
+      "button": {
+        "label": "Schedule a Free Consultation",
+        "href": "/en#contact"
+      }
+    },
+    "footer": {
+      "locations": {
+        "title": "Areas We Serve",
+        "counties": [
+          {
+            "county": "Miami-Dade County",
+            "districts": [
+              "Aventura",
+              "Bal Harbour",
+              "Bay Harbor Islands",
+              "Biscayne Park",
+              "Coral Gables",
+              "Cutler Bay",
+              "Doral",
+              "El Portal",
+              "Florida City",
+              "Golden Beach",
+              "Hialeah",
+              "Hialeah Gardens",
+              "Homestead",
+              "Indian Creek Village",
+              "Key Biscayne",
+              "Medley",
+              "Miami",
+              "Miami Beach",
+              "Miami Gardens",
+              "Miami Lakes",
+              "Miami Shores",
+              "Miami Springs",
+              "North Bay Village",
+              "North Miami",
+              "North Miami Beach",
+              "Opa-locka",
+              "Palmetto Bay",
+              "Pinecrest",
+              "South Miami",
+              "Sunny Isles Beach",
+              "Surfside",
+              "Sweetwater",
+              "Virginia Gardens",
+              "West Miami"
+            ]
+          },
+          {
+            "county": "Broward County",
+            "districts": [
+              "Coconut Creek",
+              "Cooper City",
+              "Coral Springs",
+              "Dania Beach",
+              "Davie",
+              "Deerfield Beach",
+              "Fort Lauderdale",
+              "Hallandale Beach",
+              "Hillsboro Beach",
+              "Hollywood",
+              "Lauderhill",
+              "Lauderdale Lakes",
+              "Lighthouse Point",
+              "Margate",
+              "Miramar",
+              "North Lauderdale",
+              "Oakland Park",
+              "Parkland",
+              "Pembroke Park",
+              "Pembroke Pines",
+              "Plantation",
+              "Pompano Beach",
+              "Southwest Ranches",
+              "Sunrise",
+              "Tamarac",
+              "Weston",
+              "West Park",
+              "Wilton Manors"
+            ]
+          }
+        ]
+      },
+      "services": "Services",
+      "contact": {
+        "title": "Find Us"
+      }
+    }
+  }
+}
