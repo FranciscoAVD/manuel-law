@@ -3,8 +3,6 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
-import stock from "@p/stock.jpg";
-
 function Team({
   content,
 }: {
@@ -14,6 +12,10 @@ function Team({
       name: string;
       role: string;
       href: string;
+      img: {
+        default: string;
+        hover: string;
+      };
     }[];
     button: {
       label: string;
@@ -34,18 +36,22 @@ function Team({
             >
               <div className=" relative w-[140px] aspect-square rounded-full overflow-hidden group-hover:scale-105 group-hover:-translate-y-[5px] transition-all duration-300">
                 <Image
-                  src={stock}
+                  src={t.img.hover}
                   alt=""
+                  width={300}
+                  height={300}
                   className="absolute h-full object-cover"
                 />
                 <Image
-                  src={stock}
+                  src={t.img.default}
                   alt=""
+                  width={300}
+                  height={300}
                   className="absolute h-full object-cover group-hover:opacity-0 transition-opacity duration-300"
                 />
               </div>
               <div className="text-center">
-                <p className="font-quattrocento group-hover:text-yellow-600 transition-colors">
+                <p className="font-quattrocento group-hover:text-yellow-700 transition-colors">
                   {t.name}
                 </p>
                 <span>{t.role}</span>

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 
-import stock from "@p/stock.jpg";
+import stock from "@p/images/stock.jpg";
 
 function Services({
   content,
@@ -15,6 +15,7 @@ function Services({
       label: string;
       hover: string;
       href: string;
+      imgPath: string;
     }[];
     button: {
       label: string;
@@ -28,7 +29,13 @@ function Services({
         <h2 className="text-center">{content.title}</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-10">
           {content.cards.map((c) => (
-            <Card key={c.label} label={c.label} img={stock} href={c.href} />
+            <Card
+              key={c.label}
+              label={c.label}
+              img={c.imgPath}
+              href={c.href}
+              hover={c.hover}
+            />
           ))}
         </div>
         <Button className="block w-fit mx-auto" asChild>
@@ -43,11 +50,18 @@ function Card(props: {
   label: string;
   img: StaticImageData | string;
   href: string;
+  hover: string;
 }) {
   return (
     <div>
       <div className="relative aspect-video rounded-md overflow-hidden">
-        <Image src={props.img} alt="" className="object-cover" />
+        <Image
+          src={props.img}
+          alt=""
+          className="w-full h-full object-cover"
+          width={500}
+          height={300}
+        />
         <div className="absolute inset-0 grid place-content-center bg-neutral-900/70 opacity-0 hover:opacity-100 transition-all duration-300">
           <Button variant="link" className="text-white" asChild>
             <Link
@@ -56,7 +70,7 @@ function Card(props: {
                 .split(" ")
                 .join("-")}`}
             >
-              Learn More
+              {props.hover}
             </Link>
           </Button>
         </div>

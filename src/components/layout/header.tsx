@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
-import stock from "@p/stock.jpg";
+import stock from "@p/images/stock.jpg";
 import { GlobeIcon, Menu } from "lucide-react";
 import { usePathname } from "next/navigation";
 import {
@@ -16,11 +16,13 @@ import {
   SheetFooter,
 } from "@/components/ui/sheet";
 import Image from "next/image";
+import logo from "@p/images/logo.png";
 const navLinks = [{ href: "", label: "" }];
 function Header({
   content,
 }: {
   content: {
+    homeHref: string;
     nav: {
       label: string;
       href: string;
@@ -38,20 +40,16 @@ function Header({
   const path = usePathname();
   return (
     <header className="sticky top-0 h-20 bg-white border-b z-50">
-      <Container className="grid grid-cols-3 items-center py-2 h-full">
-        <Link href="/">
-          <Image
-            src={stock}
-            alt=""
-            className="w-16 aspect-square object-cover"
-          />
+      <Container className="grid grid-cols-3 items-center h-full">
+        <Link href={content.homeHref} className="w-fit">
+          <Image src={logo} alt="" className=" h-20 w-auto object-cover" />
         </Link>
         <nav className="hidden lg:flex justify-center gap-2">
           {content.nav.map((l) => (
             <Link
               key={l.href}
               href={l.href}
-              className={`px-4 text-lg ${
+              className={`px-4 text-xl ${
                 path === l.href && "text-yellow-700"
               } hover:text-yellow-700 transition-colors`}
             >
@@ -60,7 +58,7 @@ function Header({
           ))}
           <Link
             href={content.language.href}
-            className="flex items-center gap-x-2 px-4 text-lg hover:text-yellow-700 transition-colors"
+            className="flex items-center gap-x-2 px-4 text-xl hover:text-yellow-700 transition-colors"
           >
             {content.language.label}
             <GlobeIcon className="size-4" aria-hidden />

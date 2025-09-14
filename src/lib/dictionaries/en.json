@@ -15,17 +15,20 @@
           {
             "label": "Criminal Defense",
             "hover": "Learn More",
-            "href": "/en/services"
+            "href": "/en/services",
+            "imgPath": "/images/services/criminal-defense.png"
           },
           {
             "label": "Family Law",
             "hover": "Learn More",
-            "href": "/en/services"
+            "href": "/en/services",
+            "imgPath": "/images/services/family-law.jpg"
           },
           {
             "label": "Civil Cases",
             "hover": "Learn More",
-            "href": "/en/services"
+            "href": "/en/services",
+            "imgPath": "/images/services/civil.jpg"
           }
         ],
         "button": {
@@ -39,17 +42,29 @@
           {
             "name": "Catherine S. Aguilera, Esq.",
             "role": "Lawyer",
-            "href": "/en/team#catherine"
+            "href": "/en/team#catherine",
+            "img": {
+              "default": "/images/team/catherine-default.jpg",
+              "hover": "/images/team/catherine-hover.jpg"
+            }
           },
           {
             "name": "Manuel Alejandro Franco, Esq.",
             "role": "Lawyer",
-            "href": "/en/team#manuel"
+            "href": "/en/team#manuel",
+            "img": {
+              "default": "/images/team/manuel-default.jpg",
+              "hover": "/images/team/manuel-hover.jpg"
+            }
           },
           {
             "name": "Leslie Ann Franco",
             "role": "Assistant",
-            "href": "/en/team#leslie"
+            "href": "/en/team#leslie",
+            "img": {
+              "default": "/images/team/leslie-default.jpg",
+              "hover": "/images/team/leslie-hover.jpg"
+            }
           }
         ],
         "button": {
@@ -143,168 +158,201 @@
         {
           "name": "Adoptions",
           "description": "Adopting a child could be the best thing that has ever happened to you. However, sometimes adoptions can be complicated, especially when there are those who object to them. On the other hand, you may be a parent who is trying to stop another person from adopting your child. In either case, you may need an experienced attorney to effectively argue your case and protect your parenting rights.",
-          "closing": "If you need representation on a current or future adoption case, contact us today to schedule a your free consultation."
+          "closing": "If you need representation on a current or future adoption case, contact us today to schedule a your free consultation.",
+          "imgPath": "/images/services/adoptions.jpg"
         },
         {
           "name": "Appeals",
           "description": "Despite having the best of intentions, mistakes are made in the administration of justice. The entire appellate process exists to try and correct injustices caused by these mistakes. Did you lose your case because the judge made a mistake? Did you win your case but your opponent appealed? In either case, you should consider hiring an experienced attorney to effectively argue your case.",
-          "closing": "If you need representation on a current or future appellate case, contact us today to schedule your free consultation."
+          "closing": "If you need representation on a current or future appellate case, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/appeals.jpg"
         },
         {
           "name": "Arbitration Cases",
           "description": "Many contracts require legal disputes to be arbitrated, which is a fancy term that means that your dispute has to be filed and argued in a non-traditional private forum. Arbitration is championed by many to be more efficient, cost-effective, and private than a traditional court of law. However, many others also disagree with the cost-effectiveness claim. Whether you want to arbitrate your case or not, sometimes you do not have a choice.",
-          "closing": "If you need representation on a current or future arbitration case, contact us today to schedule your free consultation."
+          "closing": "If you need representation on a current or future arbitration case, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/arbitration.jpg"
         },
         {
           "name": "Breach of Contract",
           "description": "When people think of a contract, they think of a formal piece of paper. However, verbal contracts or agreements—although more difficult to prove—are usually valid and enforceable as well. But what good is a contract if a signer violates it? If someone refuses to follow your contract (we call this a “breach of contract”), you will likely need to take that person to court to either enforce the contract or get paid for your damages caused by the breach. On the other hand, if you are the person accused of breaching a contract, you may have valid defenses that need to be considered. In either case, you should consider hiring an attorney to properly and effectively argue your case.",
-          "closing": "If you need representation on a current or future breach of contract case, contact us today to schedule your free consultation."
+          "closing": "If you need representation on a current or future breach of contract case, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/breach-of-contract.JPG"
         },
         {
           "name": "Case Evaluation",
           "description": "Sometimes your situation is so complex that we will not be able to evaluate your case properly on the spot during a short consultation. When this happens, we can offer you case evaluation services, which may include legal research and the gathering and evaluation of available evidence to provide you with an overview of your chances of success and potential pitfalls. If you need help understanding if you have a good case or not, contact us today to schedule your free consultation.",
-          "closing": "If you need help understanding if you have a good case or not, contact us today to schedule your free consultation."
+          "closing": "If you need help understanding if you have a good case or not, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/case-evaluation.jpg"
         },
         {
           "name": "Civil Cases",
           "description": "I have always found the term “civil case” quite ironic because there is nothing “civil” about them. Civil cases are a broad category of cases where, in general, monetary compensation is sought to compensate for a claimed wrong. Some common types of civil cases are breaches of contract, evictions, and torts. Whether you wish to file a civil case or defend yourself in a civil case, you should consider hiring an experienced civil attorney to protect your rights and prove your case. If you are seeking representation in a current or future civil case, contact us today to schedule your free consultation.",
-          "closing": "If you are seeking representation in a current or future civil case, contact us today to schedule your free consultation."
+          "closing": "If you are seeking representation in a current or future civil case, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/civil.jpg"
         },
         {
           "name": "Constitutional Rights Cases",
           "description": "All people—even illegal aliens—have rights under the United States Constitution. If any of your rights are violated, you may seek justice, which may include payment for any damages you experienced. Some common constitutional violations are illegal arrests, illegal searches, and police brutality. If you need representation on a current or future constitutional rights case, contact us today to schedule your free consultation.",
-          "closing": "If you need representation on a current or future constitutional rights case, contact us today to schedule your free consultation."
+          "closing": "If you need representation on a current or future constitutional rights case, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/constitutional-rights.jpg"
         },
         {
           "name": "Contract Drafting",
           "description": "It is tempting to use an online contract template to avoid overpaying for an attorney. Unfortunately, many of these standard contracts you find online can be improved or adapted to your specific situation to enhance your protections, add clarifications, and minimize litigation. The fact that you want to use a written contract in the first place is a good indicator that the agreement is important enough to you to want the best contract possible. Deficient contracts are landmines for litigation, stress, and uncertainty. If you need to create a contract, you should consider hiring an experienced attorney to do it right. If you need an attorney to prepare or modify a contract, contact us today to schedule your free consultation.",
-          "closing": "If you need an attorney to prepare or modify a contract, contact us today to schedule your free consultation."
+          "closing": "If you need an attorney to prepare or modify a contract, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/contract-drafting.jpg"
         },
         {
           "name": "Contract Negotiation",
           "description": "All too frequently people sign contracts without even attempting to negotiate their terms. Remember, you do not have to sign a contract if it contains anything that you do not agree with. Negotiating will frequently allow you to obtain more favorable terms in the contract. Negotiation is a valuable skill that has to be learned and nurtured. Manuel Alejandro Franco has had the opportunity of negotiating high-value contracts on behalf of well-known public figures. If you need representation in your contract negotiation, contact us today to schedule your free consultation.",
-          "closing": "If you need representation in your contract negotiation, contact us today to schedule your free consultation."
+          "closing": "If you need representation in your contract negotiation, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/contract-negotiation.jpg"
         },
         {
           "name": "Criminal Defense",
           "description": "When your freedom is at stake, you need an experienced criminal defense lawyer to protect you from government abuse and properly construct an effective strategy for your case. Regardless of whether you are innocent or guilty, you have rights and they should be enforced and protected. Manuel Alejandro Franco has experience on all three sides of a criminal case: he was a former law clerk for a federal judge, a former Florida prosecutor, and has been a criminal defense attorney for several years. If you need representation on a current or future criminal case, contact us today to schedule your free consultation.",
-          "closing": "If you need representation on a current or future criminal case, contact us today to schedule your free consultation."
+          "closing": "If you need representation on a current or future criminal case, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/criminal-defense.png"
         },
         {
           "name": "Declarations of Pre-Need Guardian",
           "description": "If you become incapacitated, do you like the idea of a judge who has never met you deciding who takes care of you or your children? Even if the judge has the best of intentions, this is a scary proposition. However, if you prepare a valid declaration of pre-need guardian, you make your wishes clear and the judge will usually follow suit. If you need an attorney to prepare your declaration of pre-need guardian, contact us today to schedule your free consultation.",
-          "closing": "If you need an attorney to prepare your declaration of pre-need guardian, contact us today to schedule your free consultation."
+          "closing": "If you need an attorney to prepare your declaration of pre-need guardian, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/preneed-guardian.jpg"
         },
         {
           "name": "Defamation Cases",
           "description": "Defamation is a complex area of law. This is so because the law tries to balance our right to free speech with our right to stop others from damaging your reputation with false allegations. Curiously, the legal standard of defamation is different depending on whether or not the victim is a public figure. Also, because we have the freedom to share our own reasonably-based opinions and are able to exaggerate for literary or comedic effect, it is not always obvious what is defamatory and what is simply an exercise of protected free speech. All this to say that an experienced attorney can be a valuable asset in this type of case. If you are seeking representation in a current or future defamation case, contact us today to schedule your free consultation.",
-          "closing": "If you are seeking representation in a current or future defamation case, contact us today to schedule your free consultation."
+          "closing": "If you are seeking representation in a current or future defamation case, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/defamation.jpg"
         },
         {
           "name": "Divorce Cases",
           "description": "Divorce turns what was once a loving marriage into soulless business transaction. Nobody that marries for love ever thinks they will get divorced. However, once you do find yourself in the midst of a divorce, you need to make the best of your situation and protect your future with minimal consequences to your children. A divorce can be overwhelming and drain you emotionally and financially. If you are thinking about a divorce, you should take certain steps to protect yourself before doing so. We handle these cases with a focus on pragmatism to try and help our clients move on with their lives. If you need representation on a current or future divorce case, contact us today to schedule your free consultation.",
-          "closing": "If you need representation on a current or future divorce case, contact us today to schedule your free consultation."
+          "closing": "If you need representation on a current or future divorce case, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/divorce.jpg"
         },
         {
           "name": "Domestic Violence Cases",
           "description": "Although we do not condone domestic violence, many of those accused are innocent or, even if guilty, do not deserve harsh punishment. Criminal domestic violence cases are notoriously difficult for the state to prove due to many technical evidentiary rules and an accused’s constitutional rights. Manuel Alejandro Franco has experience both prosecuting and defending domestic violence cases. If you hire an experienced attorney, it can make a big difference in your situation. If you need representation on a current or future domestic violence case, contact us today to schedule your free consultation.",
-          "closing": "If you need representation on a current or future domestic violence case, contact us today to schedule your free consultation."
+          "closing": "If you need representation on a current or future domestic violence case, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/domestic-violence.jpg"
         },
         {
           "name": "Driving Under the Influence Cases",
           "description": "Driving under the influence (DUI for short)—even in cases involving no crash or injuries—is a surprisingly serious crime in Florida. You can be fined thousands of dollars, have your driver’s license suspended, and can even go to jail. There is much more to a DUI case than meets the eye because there are specific, unusual, and sometimes strange procedural requirements that the police have to follow to make these cases stick. Manuel Alejandro Franco was trained by the State of Florida as a prosecutor to handle these cases. You can take advantage of this training and vast experience by hiring him to defend you. If you need representation on a current or future DUI cases, contact us today to schedule your free consultation.",
-          "closing": "If you need representation on a current or future DUI cases, contact us today to schedule your free consultation."
+          "closing": "If you need representation on a current or future DUI cases, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/dui.jpg"
         },
         {
           "name": "Drug Offense Cases",
           "description": "For decades, our government has been spending an enormous amount of tax-payer money fighting a losing war against drugs. Despite these well-intentioned efforts, illegal narcotics are easier to obtain than ever. Every time one person is jailed, someone else is quick to take their place. Some common drug crimes are for the possession, manufacturing, distribution, and trafficking. A few of the most common illegal drugs are cocaine, heroin, fentanyl, and methamphetamines. It is crucial that anyone charged with this type of crime have an experienced attorney to protect their rights. If you need representation on a current or future drug case, contact us today to schedule your free consultation.",
-          "closing": "If you need representation on a current or future drug case, contact us today to schedule your free consultation."
+          "closing": "If you need representation on a current or future drug case, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/drug-offenses.jpg"
         },
         {
           "name": "Evictions",
           "description": "One of the most frustrating things about being a landlord is how inefficient the eviction process is. If you rent out property, an eviction can have a major impact on your bottom line. On the other hand, if you are a tenant and your landlord is attempting to violate your rights, you will need an experienced attorney by your side. If you need representation on a current or future eviction case, contact us today to schedule your free consultation.",
-          "closing": "If you need representation on a current or future eviction case, contact us today to schedule your free consultation."
+          "closing": "If you need representation on a current or future eviction case, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/evictions.jpg"
         },
         {
           "name": "General Counsel Services",
           "description": "If you run a business, you may need a trusted, competent, and affordable attorney to address legal matters that may come up. Some of the best legal advice to a business revolves around the prevention or minimization of future legal troubles before they ever appear. In order to save costs, a general counsel attorney can be as involved—or uninvolved—in your business as you want them to be. If you need a general counsel attorney right now or in the future, contact us today to schedule your free consultation.",
-          "closing": "If you need a general counsel attorney right now or in the future, contact us today to schedule your free consultation."
+          "closing": "If you need a general counsel attorney right now or in the future, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/general-counsel.jpg"
         },
         {
           "name": "Injunctions for Protection",
           "description": "Are you being stalked or harassed? Do you fear for your safety? If so, you should consider getting an injunction for protection. An injunction is basically a court order prohibiting or restricting that person from contacting or approaching you. If the person violates the injunction in any way, they can be charged with a crime and incarcerated. On the other hand, you may be someone who is opposing an unfair request for an injunction. Either way, you would benefit from hiring an attorney to protect your rights and prove your case. If you need an attorney to represent you in a current or future injunction for protection case, contact us today to schedule your free consultation.",
-          "closing": "If you need an attorney to represent you in a current or future injunction for protection case, contact us today to schedule your free consultation."
+          "closing": "If you need an attorney to represent you in a current or future injunction for protection case, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/injunction.jpg"
         },
         {
           "name": "Legal Research",
           "description": "Sometimes you are just not sure whether you want to take legal action or not, but want to better understand your options. Or maybe you already have a lawyer and want a second or third opinion on a complex legal matter. Unfortunately, sometimes the law can be so complicated that you need an attorney just to research the issues and provide you options and suggestions. If you need an attorney to research your current or future situation, contact us today to schedule your free consultation.",
-          "closing": "If you need an attorney to research your current or future situation, contact us today to schedule your free consultation."
+          "closing": "If you need an attorney to research your current or future situation, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/legal-research.jpg"
         },
         {
           "name": "Living Will or Advance Directives",
           "description": "The purpose of a living will or advance directive is to let everyone know what type of medical care you want—and do not want—if you ever become too incapacitated to speak for yourself. For example, a common clause in these documents dictate whether you want to be resuscitated or not if your heart stops beating. The major difference between these documents and a normal will is that a normal will takes effect after the person dies. If you need an attorney to prepare a living will or advance directive, contact us today to schedule your free consultation.",
-          "closing": "If you need an attorney to prepare a living will or advance directive, contact us today to schedule your free consultation."
+          "closing": "If you need an attorney to prepare a living will or advance directive, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/living-will.jpg"
         },
         {
           "name": "Local Counsel for Pro Hac Vice Attorneys",
           "description": "Florida courts, both state and federal, may allow pro hac vice practice for attorneys who are not licensed in Florida. However, this attorney is required to have another local attorney licensed to practice in Florida on the case. If your case is in the Florida, we are your solution. If you are looking for local counsel in a current or future case, contact us today to schedule your free consultation.",
-          "closing": "If you are looking for local counsel in a current or future case, contact us today to schedule your free consultation."
-        },{
+          "closing": "If you are looking for local counsel in a current or future case, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/local-counsel.jpg"
+        },
+        {
           "name": "Of Counsel Services",
           "description": "Some law firms may need legal advice on a difficult or niche legal topic. Alternatively, a law firm may be temporarily understaffed and unable to keep up with their work load. In either event, it makes sense to hire an outside attorney to help. If you need an “of counsel” attorney, contact us today to schedule your free consultation.",
-          "closing": "If you need an “of counsel” attorney, contact us today to schedule your free consultation."
+          "closing": "If you need an “of counsel” attorney, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/of-counsel.jpg"
         },
         {
           "name": "Operating Agreements",
           "description": "One of the biggest mistakes co-owners of a business can make is not having an operating agreement. An operating agreement is the best way to clarify all important aspects of the business relationship before problems start. And believe us when we say that things can go very wrong! What percentage ownership does each owner have? How much capital is each person contributing to the business? How are profits divided? How are the business duties divided? Who has final say for specific business decisions? What happens if an owner dies or becomes incapacitated? What happens if one owner wants to sell their share of the business? All these questions and more should be in your operating agreement. You do not want to open yourself up to having to invest money and time litigating matters that could have already been agreed on in the operating agreement. Even if things always remain positive between owners, having an operating agreement helps the business run more efficiently because everything is clear from the beginning and misunderstandings can be avoided. If you need an operating agreement for your current or future business, contact us today to schedule your free consultation.",
-          "closing": "If you need an operating agreement for your current or future business, contact us today to schedule your free consultation."
+          "closing": "If you need an operating agreement for your current or future business, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/operating-agreements.jpg"
         },
         {
           "name": "Partition Actions",
           "description": "Do you co-own property (perhaps a home or a car) that you want to sell, but the other owner does not? If so, you can petition the court to order the sale over the co-owner’s objection. These petitions are colloquially called “partition actions” or “partition cases.” If you need representation on a current or future partition action, contact us today to schedule your free consultation.",
-          "closing": "If you need representation on a current or future partition action, contact us today to schedule your free consultation."
+          "closing": "If you need representation on a current or future partition action, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/partition.jpg"
         },
         {
           "name": "Petitions for Habeas Corpus",
           "description": "Although it may sound complicated, a petition for habeas corpus is best understood as a request for an order to get someone who has been unjustly arrested or incarcerated released or, at least, be brought before a judge to discuss the matter. Filing a proper petition for habeas corpus can be procedurally complex and using an experienced lawyer may greatly help speed things up. If you need an attorney to represent you in a current or future habeas corpus case, contact us today to schedule your free consultation.",
-          "closing": "If you need an attorney to represent you in a current or future habeas corpus case, contact us today to schedule your free consultation."
+          "closing": "If you need an attorney to represent you in a current or future habeas corpus case, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/habeas-corpus.jpg"
         },
         {
           "name": "Petitions for Name Changes",
           "description": "Do you not like your name? Do you no longer want to be associated by name to your crazy family? Do you want to change the spelling of your name? If so, you can petition the court to have it changed legally. If you need representation in a current or future petition to change your name, contact us today to schedule your free consultation.",
-          "closing": "If you need representation in a current or future petition to change your name, contact us today to schedule your free consultation."
+          "closing": "If you need representation in a current or future petition to change your name, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/name-change.jpg"
         },
         {
           "name": "Powers of Attorney",
           "description": "A powers of attorney is basically formal documents allowing another person (called an “agent”) to legally act on your behalf. They are quite versatile and may be tailored to grant less power to your agent. A power of attorney can be a convenient solution when you need to do something, but you do not have the time to do so. For instance, with the right power of attorney, your agent can negotiate and sign contracts on your behalf or access and sell property in your name. Of course, this would only make sense if the agent is someone who you unconditionally trust and has your best interests at heart. One smart use of a power of attorney is granting someone you love and trust access to all your accounts so they can care for you if you ever become incapacitated. If you are interested in having an attorney prepare a power of attorney, contact us today to schedule your free consultation.",
-          "closing": "If you are interested in having an attorney prepare a power of attorney, contact us today to schedule your free consultation."
+          "closing": "If you are interested in having an attorney prepare a power of attorney, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/power-of-attorney.jpg"
         },
         {
           "name": "Prenuptial and Postnuptial Agreements",
           "description": "A prenuptial (also called “premarital”) or postnuptial (also called “postmarital”) agreement is where the spouses formally agree on financial matters in case a divorce ever happens. A prenuptial agreement is done before the marriage while a postnuptial agreement is done after the marriage. Where there is a marriage, there can always be divorce. Formalizing a prenuptial or postnuptial agreement can be a good idea because a divorce can have an effect on your finances for the rest of your life. When a divorce happens, a judge decides how to divide up everything and how much to pay in alimony. A good prenuptial or postnuptial agreement frequently removes the judge’s criteria from the equation and protects the spouses’ true intentions. If you need an attorney to prepare or modify a prenuptial or postnuptial agreement, contact us today to schedule your free consultation.",
-          "closing": "If you need an attorney to prepare or modify a prenuptial or postnuptial agreement, contact us today to schedule your free consultation."
+          "closing": "If you need an attorney to prepare or modify a prenuptial or postnuptial agreement, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/prenups-and-postnups.jpg"
         },
         {
           "name": "Replevin Actions",
           "description": "Is someone refusing to return your property? Are the police refusing to help you get the property back? If so, you can petition the court for an order (called a “writ of replevin”) for the return of your property. On the other hand, if you legally possess someone else’s property due to their non-payment, you need to protect your rights as well. In either case, you should consider hiring an experienced attorney to effectively protect your right and argue your case. If you need representation on a current or future replevin case, contact us today to schedule your free consultation.",
-          "closing": "If you need representation on a current or future replevin case, contact us today to schedule your free consultation."
+          "closing": "If you need representation on a current or future replevin case, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/replevin.jpg"
         },
         {
           "name": "Sealings and Expungements",
           "description": "Worried about your employer finding out about your criminal history? If you have ever been arrested or convicted in a Florida state court and want to try and clear your name, you should check if you qualify for having your prior case sealed or expunged. If said case is sealed o expunged, it is essentially inaccessible and, in many respects, as if it never happened. These are powerful tools created by law for people to avoid the stigma of having a criminal history. If you need representation in your quest to seal or expunge your case, contact us today to schedule your free consultation.",
-          "closing": "If you need representation in your quest to seal or expunge your case, contact us today to schedule your free consultation."
+          "closing": "If you need representation in your quest to seal or expunge your case, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/expungement.jpg"
         },
         {
           "name": "Tort Actions",
           "description": "The term “tort” is a general way to describe when one person illicitly causes damage to another. Usually, a tort action is the adequate remedy when there is no contract between the parties. Common examples are defamation, battery, and fraud. On the other hand, a person being sued in a tort action has the right to defend themself and present their case. In either case, you should consider hiring an experienced attorney to help protect your rights and effectively argue your case. If you are seeking representation in a current or future tort case, contact us today to schedule your free consultation.",
-          "closing": "If you are seeking representation in a current or future tort case, contact us today to schedule your free consultation."
+          "closing": "If you are seeking representation in a current or future tort case, contact us today to schedule your free consultation.",
+          "imgPath": "/images/services/torts.jpg"
         },
         {
           "name": "Wills and Testaments",
           "description": "Everyone should consider whether they need a will. Without one, you are effectively agreeing with the government deciding how to distribute your property after you die. The problem is that many people do not even know what the law says about distribution after a death, and, even if they do know, will not be attentive of any changes to the law. The creation of a will can provide you with a lifetime of peace of mind because you make it clear how you want your property distributed after death. If you need an attorney to prepare or modify your will or testament, contact us today to schedule your free consultation.",
-          "closing": "If you need an attorney to prepare or modify your will or testament, contact us today to schedule your free consultation."
+          "closing": "If you need an attorney to prepare or modify your will or testament, contact us today to schedule your free consultation.",
+          "imgPath": "/stock.jpg"
         }
-        
       ]
     },
     "team": {
@@ -351,6 +399,7 @@
       "members": [
         {
           "name": "Catherine S. Aguilera, Esq.",
+          "imgPath": "/images/catherine-hover.jpg",
           "headers": [
             {
               "label": "Experienced Attorney in Criminal, Family, Civil, and Appellate Law",
@@ -370,6 +419,7 @@
         },
         {
           "name": "Leslie Ann Franco",
+          "imgPath": "/images/leslie-hover.jpg",
           "headers": [
             {
               "label": "Leslie Ann Franco: Excellence in Education and Administration",
@@ -389,6 +439,7 @@
   },
   "layout": {
     "header": {
+      "homeHref": "/en",
       "nav": [
         {
           "label": "Home",

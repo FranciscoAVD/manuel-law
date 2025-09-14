@@ -26,8 +26,8 @@ import {
 } from "date-fns";
 import { CalendarDaysIcon } from "lucide-react";
 import Image from "next/image";
-import stock from "@p/stock.jpg";
-
+import stock from "@p/images/stock.jpg";
+import bg from "@p/images/contact-bg.jpg";
 import { Textarea } from "@/components/ui/textarea";
 import { formatPhoneNumber } from "@/lib/utils";
 import { toast } from "sonner";
@@ -104,7 +104,7 @@ function Contact({
         <h2 className="text-[36px] text-center">{content.title}</h2>
         <Link
           href={content.switch.href}
-          className="block text-center text-sm underline"
+          className="block text-center text-sm underline w-fit mx-auto"
         >
           &#40;{content.switch.label}&#41;
         </Link>
@@ -116,7 +116,7 @@ function Contact({
             <Input
               name="name"
               placeholder={content.form.name}
-              className="rounded-md px-3 py-1 border"
+              className="rounded-md px-3 py-1 border bg-white"
               required
             />
           </div>
@@ -125,7 +125,7 @@ function Contact({
               {content.form.consultationMethod.label}
             </Label>
             <Select name="method">
-              <SelectTrigger className="w-full">
+              <SelectTrigger className="w-full bg-white">
                 <SelectValue
                   placeholder={content.form.consultationMethod.label}
                 />
@@ -145,7 +145,7 @@ function Contact({
               {content.form.preferredLanguage.label}
             </Label>
             <Select name="language">
-              <SelectTrigger className="w-full">
+              <SelectTrigger className="w-full bg-white">
                 <SelectValue
                   placeholder={content.form.preferredLanguage.label}
                 />
@@ -168,6 +168,7 @@ function Contact({
               <Input
                 name="phone"
                 value={phone}
+                className="bg-white"
                 onChange={(e) => setPhone(formatPhoneNumber(e.target.value))}
                 placeholder={content.form.phone}
               />
@@ -179,6 +180,7 @@ function Contact({
               <Input
                 name="email"
                 type="email"
+                className="bg-white"
                 placeholder={content.form.email}
                 required
               />
@@ -186,7 +188,7 @@ function Contact({
           </div>
           {/*date and time */}
           <div className="grid md:grid-cols-2 gap-4">
-            <div className="border border-black rounded-md pr-3">
+            <div className="border rounded-md pr-3 bg-white">
               <Label htmlFor="date" className="sr-only">
                 {content.form.date}
               </Label>
@@ -223,7 +225,7 @@ function Contact({
                 {content.form.time.label}
               </Label>
               <Select name="time">
-                <SelectTrigger className="w-full">
+                <SelectTrigger className="w-full bg-white">
                   <SelectValue placeholder={content.form.time.label} />
                 </SelectTrigger>
                 <SelectContent>
@@ -245,7 +247,7 @@ function Contact({
               {content.form.florida.label}
             </Label>
             <Select name="florida">
-              <SelectTrigger className="w-full">
+              <SelectTrigger className="w-full bg-white">
                 <SelectValue placeholder={content.form.florida.label} />
               </SelectTrigger>
               <SelectContent>
@@ -267,12 +269,15 @@ function Contact({
             </Label>
             <Textarea
               name="description"
+              className="bg-white"
               placeholder={content.form.details}
               minLength={40}
               required
             />
           </div>
-          <p className="text-xs text-muted-foreground">{content.form.pricing}</p>
+          <p className="text-xs text-center text-muted-foreground">
+            {content.form.pricing}
+          </p>
           <Button type="submit" className="uppercase">
             {isLoading ? (
               <div className="size-5 rounded-full border-2 border-neutral-100 border-t-neutral-500 animate-spin" />
@@ -283,7 +288,7 @@ function Contact({
         </form>
       </div>
       <div className="hidden lg:block max-h-screen">
-        <Image src={stock} alt="" className="w-full h-full object-cover" />
+        <Image src={bg} alt="" className="w-full h-full object-cover" />
       </div>
     </section>
   );

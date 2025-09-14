@@ -1,20 +1,22 @@
 import { Container } from "@/components/ui/container";
 import { getDictionay } from "@/lib/dictionaries/get-dictionary";
 import Image from "next/image";
-import stock from "@p/stock.jpg";
+import hero from "@p/images/team-bg.jpg";
+import boss from "@p/images/team/manuel-hover.jpg";
+
 async function Team({ params }: { params: Promise<{ lang: "en" | "es" }> }) {
   const { pages } = await getDictionay((await params).lang);
 
   return (
     <main>
-      <section className="relative h-[320px] flex flex-col">
+      <section className="relative h-[420px] flex flex-col">
         <div className="absolute inset-0 bg-neutral-900">
           <Image
-            src={stock}
+            src={hero}
             alt=""
-            className="h-full [object-position:0_20%] object-cover opacity-70"
+            className="h-full [object-position:0_15%] object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-yellow-900/50"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-neutral-900/50 to-transparent to-30%"></div>
         </div>
 
         <h1 className="relative mt-auto text-center text-white">
@@ -26,7 +28,7 @@ async function Team({ params }: { params: Promise<{ lang: "en" | "es" }> }) {
           <div className="relative py-20 space-y-8">
             <section className="lg:flex gap-x-6">
               <Image
-                src={stock}
+                src={boss}
                 alt=""
                 className="w-[300px] aspect-square border-4 border-[#21393E] object-cover"
               />
@@ -75,7 +77,9 @@ async function Team({ params }: { params: Promise<{ lang: "en" | "es" }> }) {
             <div key={idx} className="relative py-20 space-y-8">
               <section className="lg:flex gap-x-6">
                 <Image
-                  src={stock}
+                  src={t.imgPath}
+                  width={300}
+                  height={500}
                   alt=""
                   className="w-[300px] aspect-square border-4 border-[#21393E] object-cover"
                 />

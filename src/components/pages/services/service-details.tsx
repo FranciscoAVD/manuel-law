@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
-import stock from "@p/stock.jpg";
+
 function ServiceDetails({
   content,
 }: {
@@ -9,6 +9,7 @@ function ServiceDetails({
     name: string;
     description: string;
     closing: string;
+    imgPath: string;
   }[];
 }) {
   return (
@@ -34,9 +35,11 @@ function ServiceDetails({
               `flex h-[550px] ${idx % 2 !== 0 ? "bg-neutral-100" : "bg-white"}`
             )}
           >
-            <Image
-              src={stock}
+            <img
+              src={s.imgPath}
               alt={s.name}
+              width={300}
+              height={300}
               className="w-1/3 h-full object-cover [mask-image:linear-gradient(to_right,black,transparent)]"
             />
             <div className="w-full p-4 grid place-content-center text-justify">

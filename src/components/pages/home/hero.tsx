@@ -1,5 +1,5 @@
 import Image from "next/image";
-import stock from "@p/stock.jpg";
+import hero from "@p/images/hero.jpg";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -20,7 +20,7 @@ function Hero({
     <section className="relative">
       <div className="absolute inset-0">
         <Image
-          src={stock}
+          src={hero}
           alt=""
           className="ml-auto w-full lg:w-[50%] h-full object-cover"
         />

@@ -1,7 +1,9 @@
 import { ServiceDetails } from "@/components/pages/services/service-details";
 import { getDictionay } from "@/lib/dictionaries/get-dictionary";
 import Image from "next/image";
-import stock from "@p/stock.jpg";
+import hero from "@p/images/services-bg.jpg";
+import stock from "@p/images/stock.jpg";
+
 async function Services({
   params,
 }: {
@@ -11,22 +13,19 @@ async function Services({
   const dict = await getDictionay(lang);
   return (
     <main>
-      <section className="relative h-[320px]">
+      <section className="relative h-[420px]">
         <div className="absolute inset-0 bg-neutral-900 overflow-hidden">
           <Image
-            src={stock}
+            src={hero}
             alt=""
-            className="h-full [object-position:0_15%] object-cover opacity-70"
+            className="h-full [object-position:0_15%] object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-yellow-900/50"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-neutral-900/50 to-transparent to-30%"></div>
         </div>
         <div className="relative h-full flex flex-col text-white">
           <h1 className="text-white text-center mt-auto">
             {dict.pages.services.title}
           </h1>
-          {/* <p className="text-center">
-          Home / <span className="text-yellow-500 underline underline-offset-2">Services</span>
-        </p> */}
         </div>
       </section>
       <ServiceDetails content={dict.pages.services.services} />{" "}
